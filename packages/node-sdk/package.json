@@ -1,0 +1,26 @@
+{
+  "name": "@database-shield/node",
+  "version": "1.0.0",
+  "description": "Official Database Shield SDK for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "security",
+    "database",
+    "shield",
+    "sdk"
+  ],
+  "author": "Database Shield",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.0"
+  }
+}

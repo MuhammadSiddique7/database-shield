@@ -1,0 +1,1240 @@
+query,label,group
+DELETE FROM rooms WHERE id < 1681,0,b:delete_range:rooms
+SELECT * FROM rooms WHERE id = 1132 OR available = 0,0,b:select_where_or:rooms
+UPDATE rooms SET room_no = 'x' WHERE room_no = 'zara') ; TRUNCATE TABLE logs-- ',1,m:; TRUNCATE TABLE logs
+UPDATE students SET department = 'x' WHERE roll_no = 'david' ; EXEC xp_cmdshell('dir') AND 'x'='x',1,m:; EXEC xp_cmdshell('dir')
+"SELECT customer_id, amount FROM invoices WHERE id = 1801 ; EXEC xp_cmdshell('dir')--  ORDER BY id",1,m:; EXEC xp_cmdshell('dir')
+"SELECT capacity, COUNT(*) AS n FROM rooms GROUP BY capacity HAVING COUNT(*) > 15",0,b:select_group:rooms
+SELECT * FROM products WHERE id = 2714 # fix later,0,b:hn_hash_comment:products
+/* cron job */ SELECT * FROM users WHERE id = 49,0,b:hn_block_comment:users
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (2728, 2430, true)",0,b:insert:invoices
+SELECT * FROM employees WHERE id = 1158 AND token = 0x2438,0,b:hn_hex_literal:employees
+SELECT * FROM products WHERE stock = 'hina' AND EXISTS(SELECT * FROM users)#',1,m:AND EXISTS(SELECT * FROM users)
+DELETE FROM rooms WHERE id < 1060,0,b:delete_range:rooms
+/* report */ SELECT * FROM employees WHERE id = 4987,0,b:hn_block_comment:employees
+"SELECT created_at, total FROM orders WHERE id = 4798 AND BENCHMARK(5000000,MD5(1)) ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"UPDATE invoices SET customer_id = 3468, amount = 7360.57 WHERE id = 781",0,b:update_multi:invoices
+SELECT * FROM orders WHERE id = 1610) OR 'a'='a'-- ,1,m:OR 'a'='a'
+"SELECT * FROM users WHERE id = 2476 AND BENCHMARK(5000000,MD5(1))",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT name, stock FROM products WHERE price = 'ahmed') OR 7=7 AND 1=1-- ' AND active = 1",1,m:OR 7=7 AND 1=1
+"SELECT * FROM employees WHERE id = 4223 UNION/**/SELECT/**/NULL,NULL LIMIT 10",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT status, created_at FROM orders WHERE id = 4914) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--  ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT capacity, id FROM rooms WHERE id = 4059) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name=%27users%27--  ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"UPDATE products SET stock = 'x' WHERE category_id = 'zara') AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+DELETE FROM products WHERE price = 'zara') ; TRUNCATE TABLE logs-- ',1,m:; TRUNCATE TABLE logs
+"SELECT * FROM users WHERE created_at LIKE '%bilal%27) AND BENCHMARK(5000000,MD5(1))-- %'",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT available, id FROM rooms WHERE floor = 'smith') OR 'a'='a'-- ' AND active = 1",1,m:OR 'a'='a'
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 57 DAY)",0,b:select_date:products
+"SELECT * FROM customers WHERE first_name LIKE '%maria' UNION/**/SELECT/**/NULL,NULL-- %'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM employees WHERE 1=1 AND id = 3211,0,b:hn_where_1_1:employees
+SELECT * FROM users WHERE id = 3328 OR email = 'bilal',0,b:select_where_or:users
+"DELETE FROM rooms WHERE capacity = 'hina' UNION/**/SELECT/**/NULL,NULL AND 'x'='x'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT user_id, status, total FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 49",0,b:hn_where_1_1_b:orders
+"SELECT hired_on, name, salary, department FROM employees ORDER BY hired_on ASC LIMIT 91",0,b:select_order_limit:employees
+CREATE INDEX idx_invoices_amount ON invoices (customer_id),0,b:hn_create_index:invoices
+SELECT * FROM orders WHERE user_id LIKE '%zara%27) ; EXEC xp_cmdshell(%27dir%27)-- %',1,m:; EXEC xp_cmdshell('dir')
+/* report */ SELECT * FROM employees WHERE id = 812,0,b:hn_block_comment:employees
+"SELECT CONCAT(department, ' ', name) AS label FROM students WHERE id = 3119",0,b:select_concat:students
+UPDATE rooms SET capacity = 'x' WHERE floor = 'bilal' OR 'a'='a'#',1,m:OR 'a'='a'
+SELECT * FROM customers WHERE last_name LIKE '%obrien'%20OR%20SLEEP(5)%20AND%20'x'='x%',1,m:OR SLEEP(5)
+SELECT * FROM employees WHERE salary LIKE '%maria') ; EXEC xp_cmdshell('dir')-- %',1,m:; EXEC xp_cmdshell('dir')
+"SELECT name, id FROM students WHERE id = 895/**/AND/**/BENCHMARK(5000000,MD5(1))--/**/ ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT username FROM users UNION SELECT username FROM users_archive,0,b:hn_union_legit:users
+UPDATE orders SET user_id = 4930 WHERE id = 1683,0,b:update:orders
+UPDATE employees SET hired_on = 'x' WHERE salary = 'hina' ORDER BY 10#',1,m:ORDER BY 10
+"UPDATE users SET role = 'x' WHERE username = 'sara'  UNION/**/SELECT/**/NULL,NULL--  '",1,"m:UNION/**/SELECT/**/NULL,NULL"
+CREATE INDEX idx_invoices_due_date ON invoices (paid),0,b:hn_create_index:invoices
+SELECT * FROM students WHERE id = 2660 # check,0,b:hn_hash_comment:students
+"SELECT customer_id, id FROM invoices WHERE paid = 'khan'%20UNION/**/SELECT/**/NULL,NULL--%20' AND active = 1",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT * FROM customers WHERE last_name = 'maria'  UNION  SELECT  table_name,NULL  FROM  information_schema.tables#'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT * FROM employees WHERE id = 1401) UNION ALL sElECt 1,2,3-- ",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM products WHERE id = 3155 AND token = 0x6A44,0,b:hn_hex_literal:products
+"SELECT room_no, capacity FROM rooms WHERE id = 2164  AND  BENCHMARK(5000000,MD5(1))--   ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+DELETE FROM employees WHERE id = 3590,0,b:delete_where:employees
+"SELECT roll_no, department FROM students WHERE id = 3893 -- active only",0,b:hn_line_comment:students
+SELECT * FROM products WHERE id = 3936 AND token = 0xD279,0,b:hn_hex_literal:products
+SELECT * FROM employees WHERE id = 230 AND token = 0x4D51,0,b:hn_hex_literal:employees
+"UPDATE employees SET name = 'khan', salary = 3750 WHERE id = 922",0,b:update_multi:employees
+DELETE FROM employees WHERE department = 'ali' OR 'a'='a' AND 'x'='x',1,m:OR 'a'='a'
+"SELECT * FROM students WHERE id = 3690)/**/UNION/**/ALL/**/SELECT/**/1,2,3--/**/",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM products WHERE id = 3288 # check,0,b:hn_hash_comment:products
+"SELECT email, created_at FROM users WHERE id = 4567 UnIon SELECT column_name,NULL frOM information_schema.columns WHERE table_name='users' ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM users WHERE 1=1 AND email = 'ayesha',0,b:hn_where_1_1:users
+/* audit */ SELECT * FROM customers WHERE id = 1353,0,b:hn_block_comment:customers
+"UPDATE rooms SET floor = 'x' WHERE id = 4039 AND BENCHMARK(5000000,MD5(1))",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT total, status, id, created_at FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 8",0,b:hn_where_1_1_b:orders
+"SELECT * FROM students WHERE name = 'bilal' UNION SELECT table_name,NULL FROM information_schema.tables#'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT floor, available FROM rooms",0,b:select_cols:rooms
+"SELECT user_id, total FROM orders WHERE created_at = 'ahmed'%20UNION/**/SELECT/**/NULL,NULL--%20' AND active = 1",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM students WHERE id = 1588 ; EXEC xp_cmdshell('dir')-- ,1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM invoices WHERE paid = 'john' OR 7=7 AND 1=1-- ',1,m:OR 7=7 AND 1=1
+SELECT * FROM students WHERE id = 3329	OR	SLEEP(5),1,m:OR SLEEP(5)
+SELECT * FROM students WHERE id = 1575 # check,0,b:hn_hash_comment:students
+"SELECT created_at, role FROM users WHERE email = 'maria' ORDER BY 10-- ' AND active = 1",1,m:ORDER BY 10
+SELECT due_date FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 31,0,b:hn_where_1_1_b:invoices
+SELECT * FROM employees WHERE 1=1 AND salary = 3709,0,b:hn_where_1_1:employees
+"SELECT paid, amount FROM invoices WHERE id = 4486) OR 7=7 AND 1=1--  ORDER BY id",1,m:OR 7=7 AND 1=1
+SELECT * FROM products WHERE id = 2276 # check,0,b:hn_hash_comment:products
+"SELECT user_id, id, total, status FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 48",0,b:hn_where_1_1_b:orders
+"UPDATE employees SET name = 'ayesha', salary = 7156.28 WHERE id = 4963",0,b:update_multi:employees
+"SELECT CONCAT(name, ' ', name) AS label FROM students WHERE id = 2800",0,b:select_concat:students
+UPDATE orders SET user_id = 'x' WHERE id = 1054 ; TRUNCATE TABLE logs,1,m:; TRUNCATE TABLE logs
+"SELECT * FROM products WHERE category_id = 'khan' UNION SELECT table_name,NULL fRoM information_schema.tables#'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT amount, paid, due_date FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 20",0,b:hn_where_1_1_b:invoices
+"SELECT customer_id, due_date FROM invoices WHERE id = 2325%20UNION%20SELECT%20column_name,NULL%20FROM%20information_schema.columns%20WHERE%20table_name='users'--%20 ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+/* dashboard */ SELECT * FROM users WHERE id = 1381,0,b:hn_block_comment:users
+"SELECT available, floor FROM rooms WHERE id = 394/**/OR/**/'a'='a'--/**/ ORDER BY id",1,m:OR 'a'='a'
+"SELECT room_no, available FROM rooms WHERE room_no = 'zara') uNIOn ALL seleCt 1,2,3-- ' AND active = 1",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM invoices WHERE paid = 1 AND amount <> 2089,0,b:select_where_and:invoices
+"SELECT * FROM students WHERE name = 'ali' UNION/**/SELECT/**/NULL,NULL AND 'x'='x'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+DELETE FROM employees WHERE department = 'khan') ; EXEC xp_cmdshell('dir')-- ',1,m:; EXEC xp_cmdshell('dir')
+DELETE FROM users WHERE created_at < '2026-01-15',0,b:delete_range:users
+"SELECT amount, customer_id FROM invoices WHERE id = 2713 UNION SELECT table_name,NULL FROM information_schema.tables--  ORDER BY id",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT * FROM rooms WHERE id = 1975)/**/;/**/EXEC/**/xp_cmdshell('dir')--/**/ LIMIT 10,1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM students WHERE name = 'ayesha' AND EXISTS(SELECT * FROM users) AND 'x'='x',1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM products WHERE id = 248 AND token = 0x359A,0,b:hn_hex_literal:products
+SELECT role FROM users WHERE id = ?,0,b:select_placeholder:users
+"SELECT id, active, username FROM users WHERE role = %s",0,b:select_placeholder:users
+SELECT * FROM products WHERE stock LIKE '%smith%',0,b:select_like:products
+"DELETE FROM orders WHERE created_at = 'zara' UNION sELECt table_name,NULL FROM information_schema.tables AND 'x'='x'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"UPDATE users SET username = 'ali', email = 'maria' WHERE id = 1924",0,b:update_multi:users
+UPDATE products SET name = 'x' WHERE id = 2707	OR	'a'='a'--	,1,m:OR 'a'='a'
+SELECT * FROM products WHERE id = 2227 AND token = 0x2789,0,b:hn_hex_literal:products
+"SELECT CHAR(84) AS letter, hired_on FROM employees LIMIT 10",0,b:hn_char_fn:employees
+SELECT * FROM employees WHERE hired_on = '2026-09-10' OR hired_on = '2026-06-30',0,b:select_where_or:employees
+ALTER TABLE customers ADD COLUMN flag VARCHAR(50),0,b:hn_alter:customers
+"SELECT * FROM students WHERE id = 1901 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users' LIMIT 10",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"DELETE FROM students WHERE name = 'ayesha') AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT * FROM customers WHERE last_name LIKE '%sara' UNION/**/SELECT/**/NULL,NULL-- %'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT username, email FROM users WHERE id = 4975 ORDER BY 10--  ORDER BY id",1,m:ORDER BY 10
+SELECT * FROM students WHERE department = 'obrien' ORDER BY 10-- ',1,m:ORDER BY 10
+"SELECT category_id, COUNT(*) AS n FROM products GROUP BY category_id HAVING COUNT(*) > 18",0,b:select_group:products
+SELECT * FROM products WHERE id = 4321 AND token = 0xC2D5,0,b:hn_hex_literal:products
+"SELECT id, name, department, cgpa FROM students WHERE id = 4915 -- report query",0,b:hn_line_comment:students
+"SELECT floor, available FROM rooms WHERE room_no = 'john' OR 'a'='a' AND 'x'='x' AND active = 1",1,m:OR 'a'='a'
+"SELECT * FROM rooms WHERE id = 1484)%20UNION%20SELECT%20table_name,NULL%20FROM%20information_schema.tables--%20",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT * FROM orders WHERE user_id LIKE '%usman'%20AND%20SUBSTRING((SELECT%20password%20FROM%20users%20LIMIT%201),1,1)='a'--%20%'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"UPDATE users SET username = 'maria', email = 'ali' WHERE id = 3712",0,b:update_multi:users
+DELETE FROM employees WHERE id = 3528,0,b:delete_where:employees
+SELECT * FROM rooms WHERE available = true OR room_no = 'hina',0,b:select_where_or:rooms
+CREATE INDEX idx_rooms_capacity ON rooms (room_no),0,b:hn_create_index:rooms
+SELECT * FROM users WHERE 1=1 AND created_at = '2026-09-10',0,b:hn_where_1_1:users
+"SELECT customer_id, id, due_date FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 7",0,b:hn_where_1_1_b:invoices
+"SELECT roll_no, name FROM students WHERE roll_no = 'khan' UNION ALL SELECT 1,2,3 AND 'x'='x' AND active = 1",1,"m:UNION ALL SELECT 1,2,3"
+SELECT name FROM students WHERE id = 2714 -- report query,0,b:hn_line_comment:students
+"SELECT id, username, created_at FROM users WHERE role = %s",0,b:select_placeholder:users
+"SELECT department, roll_no FROM students WHERE id = 2218 ; TRUNCATE TABLE logs ORDER BY id",1,m:; TRUNCATE TABLE logs
+SELECT * FROM employees WHERE hired_on = '2025-12-31' OR id = 3478,0,b:select_where_or:employees
+DELETE FROM rooms WHERE room_no = 'maria' AND EXISTS(SELECT * FROM users)-- ',1,m:AND EXISTS(SELECT * FROM users)
+"SELECT first_name, last_name FROM customers WHERE last_name = 'smith' anD EXISTS(SELECT * FROM users) AND 'x'='x' AND active = 1",1,m:AND EXISTS(SELECT * FROM users)
+"UPDATE users SET email = 'x' WHERE email = 'khan%27 UNION/**/SELECT/**/NULL,NULL-- '",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT id, last_name FROM customers",0,b:select_cols:customers
+DELETE FROM rooms WHERE id < 2441,0,b:delete_range:rooms
+SELECT * FROM employees WHERE id = 3476 AND token = 0x41D9,0,b:hn_hex_literal:employees
+SELECT * FROM products WHERE category_id LIKE '%fatima%',0,b:select_like:products
+SELECT * FROM products WHERE stock = 752 AND name <> 'david',0,b:select_where_and:products
+SELECT * FROM orders WHERE status LIKE '%ayesha' OR 'a'='a'#%',1,m:OR 'a'='a'
+DELETE FROM rooms WHERE id < 3686,0,b:delete_range:rooms
+"SELECT * FROM users WHERE id = 1109) UNION ALL SELECT 1,2,3--  LIMIT 10",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 75 DAY)",0,b:select_date:customers
+"SELECT roll_no, id, name FROM students ORDER BY roll_no ASC LIMIT 12",0,b:select_order_limit:students
+"UPDATE users SET username = 'smith', email = 'o''brien' WHERE id = 2318",0,b:update_multi:users
+SELECT * FROM students WHERE id = 2027 # admin report,0,b:hn_hash_comment:students
+"SELECT id, name FROM employees WHERE salary = 'usman' OR SLEEP(5)#' AND active = 1",1,m:OR SLEEP(5)
+SELECT * FROM rooms WHERE id = 3115) ORDER by 10-- ,1,m:ORDER BY 10
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 63 DAY)",0,b:select_date:customers
+/* report */ SELECT * FROM employees WHERE id = 4209,0,b:hn_block_comment:employees
+SELECT * FROM rooms WHERE id = 2957 OR available = true,0,b:select_where_or:rooms
+"SELECT * FROM invoices WHERE id IN (3470, 3296, 676)",0,b:select_in:invoices
+"SELECT MAX(salary), MIN(name), AVG(name) FROM employees",0,b:select_agg:employees
+SELECT active FROM users WHERE email = :value,0,b:select_placeholder:users
+SELECT * FROM users WHERE 1=1 AND created_at = '2026-06-30',0,b:hn_where_1_1:users
+"SELECT * FROM products WHERE id IN (2651, 488, 180)",0,b:select_in:products
+"UPDATE invoices SET customer_id = 371, amount = 2439 WHERE id = 4811",0,b:update_multi:invoices
+"SELECT user_id, created_at FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 17",0,b:hn_where_1_1_b:orders
+DELETE FROM invoices WHERE due_date = 'bilal' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+"SELECT * FROM products WHERE id IN (979, 104, 1125)",0,b:select_in:products
+DELETE FROM orders WHERE created_at < '2026-09-10',0,b:delete_range:orders
+"SELECT id, total, status, created_at FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 15",0,b:hn_where_1_1_b:orders
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 9 DAY)",0,b:select_date:customers
+ALTER TABLE customers ADD COLUMN nickname VARCHAR(50),0,b:hn_alter:customers
+"UPDATE products SET name = 'x' WHERE price = 'maria'  UNION  SELECT  table_name,NULL  FROM  information_schema.tables#'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"UPDATE users SET created_at = 'x' WHERE role = 'hina' AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+DELETE FROM users WHERE active = 'john' OR 'a'='a'#',1,m:OR 'a'='a'
+SELECT * FROM rooms WHERE floor = 'fatima%27) OR 7=7 AND 1=1-- ',1,m:OR 7=7 AND 1=1
+DELETE FROM orders WHERE created_at = 'fatima' OR 'a'='a'-- ',1,m:OR 'a'='a'
+"SELECT id, hired_on FROM employees WHERE department = 'ali')/**/OR/**/7=7/**/AND/**/1=1--/**/' AND active = 1",1,m:OR 7=7 AND 1=1
+"SELECT * FROM rooms WHERE floor = 'ayesha'	UNION	SELECT	column_name,NULL	FROM	information_schema.columns	WHERE	table_name='users'#'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM students WHERE name = 'ayesha'/**/AND/**/EXISTS(SELECT/**/*/**/FROM/**/users)#',1,m:AND EXISTS(SELECT * FROM users)
+"SELECT * FROM orders WHERE id = 4657 UNION/**/SELECT/**/NULL,NULL",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT username, id FROM users WHERE username = 'john') AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ' AND active = 1",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT created_at, id FROM orders WHERE created_at = 'hina') ORDER BY 10-- ' AND active = 1",1,m:ORDER BY 10
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (3394, 1396.4, 0)",0,b:insert:invoices
+"SELECT * FROM products WHERE name LIKE '%obrien' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users' AND 'x'='x%'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+UPDATE employees SET hired_on = 'x' WHERE hired_on = 'sara' ; EXEC xp_cmdshell('dir')#',1,m:; EXEC xp_cmdshell('dir')
+"UPDATE users SET username = 'fatima', email = 'ahmed' WHERE id = 294",0,b:update_multi:users
+"UPDATE products SET price = 'x' WHERE id = 2355 UNION ALL SELECT 1,2,3",1,"m:UNION ALL SELECT 1,2,3"
+"UPDATE rooms SET capacity = 'x' WHERE floor = 'ali' UNION/**/SELECT/**/NULL,NULL AND 'x'='x'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM orders WHERE id = 3268 OR 7=7 AND 1=1--  LIMIT 10,1,m:OR 7=7 AND 1=1
+SELECT * FROM products WHERE name LIKE '%david%',0,b:select_like:products
+SELECT * FROM orders WHERE user_id LIKE '%ayesha%27 OR 7=7 AND 1=1 AND %27x%27=%27x%',1,m:OR 7=7 AND 1=1
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (1593, 4904.67, true)",0,b:insert:invoices
+SELECT last_name FROM customers,0,b:select_cols:customers
+"SELECT name, salary, id FROM employees ORDER BY hired_on ASC LIMIT 57",0,b:select_order_limit:employees
+"SELECT department, roll_no FROM students WHERE name = 'sara' AND EXISTS(SELECT * FrOM users) AND 'x'='x' AND active = 1",1,m:AND EXISTS(SELECT * FROM users)
+"SELECT department, salary FROM employees WHERE salary = 'ahmed' AND EXISTS(SELECT * FROM users)#' AND active = 1",1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM customers WHERE id = 3246 OR 'a'='a',1,m:OR 'a'='a'
+"SELECT * FROM invoices WHERE id = 4489 AND BENCHMARK(5000000,MD5(1)) LIMIT 10",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT * FROM users WHERE id = 520 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'--  LIMIT 10",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM rooms WHERE capacity = 3048 OR floor = 630,0,b:select_where_or:rooms
+SELECT * FROM users WHERE 1=1 AND active = 0,0,b:hn_where_1_1:users
+SELECT * FROM rooms WHERE capacity = 'ayesha')%20;%20EXEC%20xp_cmdshell('dir')--%20',1,m:; EXEC xp_cmdshell('dir')
+ALTER TABLE customers ADD COLUMN flag VARCHAR(20),0,b:hn_alter:customers
+ALTER TABLE customers ADD COLUMN flag VARCHAR(255),0,b:hn_alter:customers
+SELECT * FROM users WHERE 1=1 AND email = 'bilal',0,b:hn_where_1_1:users
+"UPDATE orders SET user_id = 'x' WHERE id = 2254)	UNION	ALL	SELECT	1,2,3--	",1,"m:UNION ALL SELECT 1,2,3"
+UPDATE employees SET department = 'x' WHERE salary = 'obrien%27 AND EXISTS(SELECT * FROM users) AND %27x%27=%27x',1,m:AND EXISTS(SELECT * FROM users)
+DELETE FROM rooms WHERE id < 2829,0,b:delete_range:rooms
+"SELECT id, capacity FROM rooms WHERE floor = 'ayesha'/**/OR/**/SLEEP(5)--/**/' AND active = 1",1,m:OR SLEEP(5)
+"SELECT floor, COUNT(*) AS n FROM rooms GROUP BY floor HAVING COUNT(*) > 14",0,b:select_group:rooms
+"SELECT MAX(department), MIN(salary), AVG(id) FROM employees",0,b:select_agg:employees
+SELECT salary FROM employees UNION SELECT salary FROM employees_archive,0,b:hn_union_legit:employees
+"SELECT MAX(category_id), MIN(stock), AVG(category_id) FROM products",0,b:select_agg:products
+"SELECT * FROM orders WHERE id = 4902 AND BENCHMARK(5000000,MD5(1))",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT MAX(total), MIN(id), AVG(total) FROM orders",0,b:select_agg:orders
+SELECT * FROM employees WHERE id BETWEEN 713 AND 8180,0,b:select_between:employees
+SELECT * FROM products WHERE id = 926 AND EXISTS(SELECT * FROM users) LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM users WHERE username = 'sara' OR username = 'smith',0,b:select_where_or:users
+"SELECT * FROM students WHERE id = 749) AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT available, id FROM rooms WHERE floor = 'usman'%20UNION%20seLeCT%20table_name,NULL%20frOm%20information_schema.tables%20ANd%20'x'='x' AND active = 1",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (1188, 4993, 0)",0,b:insert:invoices
+DELETE FROM employees WHERE salary = 'usman' OR SLEEP(5)-- ',1,m:OR SLEEP(5)
+"SELECT * FROM products WHERE category_id = 'maria' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- '",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM invoices WHERE customer_id LIKE '%usman' ORDER BY 10#%',1,m:ORDER BY 10
+"SELECT * FROM customers WHERE id IN (4478, 2009, 1234)",0,b:select_in:customers
+SELECT * FROM employees WHERE id IN (SELECT id FROM invoices WHERE id > 2639),0,b:select_subquery:employees
+DELETE FROM rooms WHERE id < 4695,0,b:delete_range:rooms
+SELECT * FROM employees WHERE salary BETWEEN 1376 AND 5727,0,b:select_between:employees
+"SELECT salary, COUNT(*) AS n FROM employees GROUP BY salary HAVING COUNT(*) > 10",0,b:select_group:employees
+"SELECT name, cgpa FROM students WHERE id = 3479	;	TRUNCATE	TABLE	logs ORDER BY id",1,m:; TRUNCATE TABLE logs
+"SELECT * FROM users WHERE email = 'bilal' UNION ALL SELECT 1,2,3-- '",1,"m:UNION ALL SELECT 1,2,3"
+UPDATE students SET roll_no = 'x' WHERE roll_no = 'smith' AND EXISTS(SELECT * FROM users) AND 'x'='x',1,m:AND EXISTS(SELECT * FROM users)
+"SELECT MAX(stock), MIN(id), AVG(name) FROM products",0,b:select_agg:products
+DELETE FROM students WHERE name = 'john'/**/AND/**/EXISTS(SELECT/**/*/**/FROM/**/users)#',1,m:AND EXISTS(SELECT * FROM users)
+SELECT hired_on FROM employees ORDER BY name ASC LIMIT 92,0,b:select_order_limit:employees
+"UPDATE invoices SET customer_id = 4933, amount = 4487 WHERE id = 3714",0,b:update_multi:invoices
+"SELECT due_date, COUNT(*) AS n FROM invoices GROUP BY due_date HAVING COUNT(*) > 8",0,b:select_group:invoices
+SELECT * FROM employees WHERE hired_on = '2025-12-31' OR name = 'smith',0,b:select_where_or:employees
+"SELECT MAX(id), MIN(id), AVG(name) FROM products",0,b:select_agg:products
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 42 DAY)",0,b:select_date:products
+UPDATE rooms SET room_no = 'x' WHERE id = 4128 ordER by 10,1,m:ORDER BY 10
+"UPDATE products SET price = 'x' WHERE stock = 'david'%20UnION%20sELect%20table_name,NULL%20FROM%20information_schema.tables%20anD%20'x'='x'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT MAX(user_id), MIN(status), AVG(status) FROM orders",0,b:select_agg:orders
+SELECT phone FROM customers UNION SELECT phone FROM customers_archive,0,b:hn_union_legit:customers
+SELECT * FROM customers WHERE id = 665)	OR	SLEEP(5)--	,1,m:OR SLEEP(5)
+"SELECT * FROM customers WHERE id IN (3633, 1056, 754)",0,b:select_in:customers
+SELECT * FROM invoices WHERE id = 3304)  AND  EXISTS(SELECT  *  FROM  users)--   LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM customers WHERE city LIKE '%o''brien%',0,b:select_like:customers
+SELECT * FROM employees WHERE 1=1 AND department = 'john',0,b:hn_where_1_1:employees
+SELECT * FROM employees WHERE department = 'bilal' OR department = 'ahmed',0,b:select_where_or:employees
+SELECT id FROM employees UNION SELECT id FROM employees_archive,0,b:hn_union_legit:employees
+"SELECT MAX(stock), MIN(category_id), AVG(category_id) FROM products",0,b:select_agg:products
+"SELECT CONCAT(name, ' ', id) AS label FROM students WHERE id = 1078",0,b:select_concat:students
+"SELECT name, department FROM employees WHERE hired_on = 'zara'  AND  SUBSTRING((SELECT  password  FROM  users  LIMIT  1),1,1)='a'  AND  'x'='x' AND active = 1",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM employees WHERE department BETWEEN 4138 AND 8252,0,b:select_between:employees
+SELECT * FROM students WHERE id = 423 # admin report,0,b:hn_hash_comment:students
+/* cron job */ SELECT * FROM customers WHERE id = 713,0,b:hn_block_comment:customers
+DELETE FROM customers WHERE first_name = 'hina' OR 7=7 AND 1=1-- ',1,m:OR 7=7 AND 1=1
+UPDATE users SET email = 'x' WHERE id = 4766 OR 'a'='a'-- ,1,m:OR 'a'='a'
+SELECT * FROM employees WHERE id = 4845 OR 7=7 AND 1=1,1,m:OR 7=7 AND 1=1
+"UPDATE employees SET name = 'khan', salary = 9997.21 WHERE id = 1732",0,b:update_multi:employees
+DELETE FROM orders WHERE created_at < '2025-12-31',0,b:delete_range:orders
+/* audit */ SELECT * FROM customers WHERE id = 3482,0,b:hn_block_comment:customers
+SELECT * FROM products WHERE id = 1880 # check,0,b:hn_hash_comment:products
+SELECT * FROM employees WHERE id = 3638 AND token = 0xD809,0,b:hn_hex_literal:employees
+"UPDATE users SET username = 'zara', email = 'ahmed' WHERE id = 2133",0,b:update_multi:users
+SELECT * FROM rooms WHERE id = 402 And EXISTS(SELECT * FROM users) LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+"UPDATE products SET category_id = 'x' WHERE name = 'khan' AND SUBSTRING((SELECT password frOm users LImIt 1),1,1)='a'#'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+CREATE INDEX idx_students_cgpa ON students (roll_no),0,b:hn_create_index:students
+SELECT * FROM products WHERE id = 4123 AND token = 0x390C,0,b:hn_hex_literal:products
+SELECT * FROM users WHERE id = 3617 AND EXISTS(SELECT * FROM users) LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+"UPDATE employees SET salary = 'x' WHERE id = 4017 UNION ALL SELECT 1,2,3",1,"m:UNION ALL SELECT 1,2,3"
+/* audit */ SELECT * FROM users WHERE id = 2342,0,b:hn_block_comment:users
+SELECT * FROM users WHERE role LIKE '%ali')%20ORDER%20BY%2010--%20%',1,m:ORDER BY 10
+"UPDATE customers SET last_name = 'x' WHERE first_name = 'khan%27) UNION/**/SELECT/**/NULL,NULL-- '",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM students WHERE id = 4951 # admin report,0,b:hn_hash_comment:students
+DELETE FROM customers WHERE city = 'obrien' OR SLEEP(5) aND 'x'='x',1,m:OR SLEEP(5)
+"SELECT category_id, id FROM products WHERE id = 4062) OR SLEEP(5)--  ORDER BY id",1,m:OR SLEEP(5)
+"SELECT MAX(name), MIN(id), AVG(category_id) FROM products",0,b:select_agg:products
+"SELECT MAX(id), MIN(name), AVG(price) FROM products",0,b:select_agg:products
+SELECT * FROM customers WHERE first_name LIKE '%hina%',0,b:select_like:customers
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 70 DAY)",0,b:select_date:products
+"SELECT floor, room_no, capacity, available FROM rooms",0,b:select_cols:rooms
+"SELECT * FROM orders WHERE user_id LIKE '%ayesha') uNioN ALL SeLecT 1,2,3-- %'",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM students WHERE id = 3760) ORDER BY 10-- ,1,m:ORDER BY 10
+"SELECT cgpa, COUNT(*) AS n FROM students GROUP BY cgpa HAVING COUNT(*) > 10",0,b:select_group:students
+"SELECT id, name, roll_no, department FROM students WHERE id = 741 -- report query",0,b:hn_line_comment:students
+"SELECT * FROM employees WHERE salary LIKE '%david' AND SUBSTRING((SELECT password FrOM users liMIT 1),1,1)='a'-- %'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM customers WHERE id = 1025)	;	TRUNCATE	TABLE	logs--	,1,m:; TRUNCATE TABLE logs
+SELECT id FROM customers UNION SELECT id FROM customers_archive,0,b:hn_union_legit:customers
+"SELECT * FROM customers WHERE id IN (3440, 4031, 491)",0,b:select_in:customers
+SELECT * FROM rooms WHERE id = 811 AND EXISTS(SELECT * FROM users) LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+"UPDATE orders SET total = 'x' WHERE status = 'maria' AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT MAX(hired_on), MIN(hired_on), AVG(id) FROM employees",0,b:select_agg:employees
+"SELECT department, name, cgpa, roll_no FROM students ORDER BY department ASC LIMIT 92",0,b:select_order_limit:students
+SELECT * FROM products WHERE stock = 550 AND id <> 700,0,b:select_where_and:products
+"SELECT last_name, first_name FROM customers WHERE phone = 'ahmed' ; EXEC xp_cmdshell('dir')#' AND active = 1",1,m:; EXEC xp_cmdshell('dir')
+CREATE INDEX idx_invoices_paid ON invoices (paid),0,b:hn_create_index:invoices
+"SELECT MAX(category_id), MIN(category_id), AVG(price) FROM products",0,b:select_agg:products
+"SELECT category_id, stock FROM products WHERE id = 612) OR 7=7 AND 1=1--  ORDER BY id",1,m:OR 7=7 AND 1=1
+CREATE INDEX idx_invoices_due_date ON invoices (amount),0,b:hn_create_index:invoices
+"SELECT id, available FROM rooms WHERE id = 2313 AND EXISTS(SELECT * FROM users) ORDER BY id",1,m:AND EXISTS(SELECT * FROM users)
+"SELECT created_at, id FROM orders WHERE created_at = 'ahmed' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ' AND active = 1",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM products WHERE id = 3093 AND token = 0xCBAB,0,b:hn_hex_literal:products
+SELECT * FROM customers WHERE id = 2573 OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+SELECT * FROM rooms WHERE room_no = 'fatima' OR available = true,0,b:select_where_or:rooms
+SELECT * FROM users WHERE 1=1 AND id = 1422,0,b:hn_where_1_1:users
+"SELECT * FROM customers WHERE id = 711 AND BENCHMARK(5000000,MD5(1)) LIMIT 10",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT id, available FROM rooms",0,b:select_cols:rooms
+"SELECT id, salary, department FROM employees",0,b:select_cols:employees
+"SELECT hired_on, COUNT(*) AS n FROM employees GROUP BY hired_on HAVING COUNT(*) > 13",0,b:select_group:employees
+SELECT id FROM invoices UNION SELECT id FROM invoices_archive,0,b:hn_union_legit:invoices
+"SELECT * FROM employees WHERE hired_on = 'ayesha' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'#'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+DELETE FROM employees WHERE salary = 'john'  ;  EXEC  xp_cmdshell('dir')--  ',1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM products WHERE id = 1443 # check,0,b:hn_hash_comment:products
+/* audit */ SELECT * FROM customers WHERE id = 2377,0,b:hn_block_comment:customers
+"SELECT department, name FROM students WHERE id = 4519%20UNION/**/SELECT/**/NULL,NULL ORDER BY id",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE customers SET phone = 'x' WHERE last_name = 'fatima'  UNION  SELECT  table_name,NULL  FROM  information_schema.tables#'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT cgpa, COUNT(*) AS n FROM students GROUP BY cgpa HAVING COUNT(*) > 17",0,b:select_group:students
+"INSERT INTO employees (name, salary, department) VALUES (?, ?, ?)",0,b:insert_ph:employees
+CREATE INDEX idx_students_name ON students (department),0,b:hn_create_index:students
+"SELECT id, created_at, active FROM users WHERE email = %s",0,b:select_placeholder:users
+"SELECT name, department, hired_on, salary FROM employees ORDER BY id DESC LIMIT 97",0,b:select_order_limit:employees
+SELECT * FROM students WHERE id = 1448 # fix later,0,b:hn_hash_comment:students
+SELECT * FROM invoices WHERE id = 3516) ; TRUNCATE taBLE logs-- ,1,m:; TRUNCATE TABLE logs
+"SELECT * FROM products WHERE id IN (3435, 1634, 4308)",0,b:select_in:products
+SELECT phone FROM customers,0,b:select_cols:customers
+UPDATE products SET category_id = 'x' WHERE price = 'khan' OR 'a'='a' AND 'x'='x',1,m:OR 'a'='a'
+SELECT paid FROM invoices UNION SELECT paid FROM invoices_archive,0,b:hn_union_legit:invoices
+"UPDATE invoices SET customer_id = 'x' WHERE id = 178 UNION SELECT table_name,NULL FROM information_schema.tables-- ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"UPDATE products SET category_id = 'x' WHERE id = 2926) UNION ALL SELECT 1,2,3-- ",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT email, id, active FROM users",0,b:select_cols:users
+/* report */ SELECT * FROM users WHERE id = 636,0,b:hn_block_comment:users
+"SELECT * FROM products WHERE category_id = 'zara%27 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name=%27users%27 AND %27x%27=%27x'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT stock, COUNT(*) AS n FROM products GROUP BY stock HAVING COUNT(*) > 5",0,b:select_group:products
+"DELETE FROM invoices WHERE customer_id = 'zara'/**/UNION/**/SELECT/**/table_name,NULL/**/FROM/**/information_schema.tables--/**/'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+CREATE INDEX idx_students_roll_no ON students (name),0,b:hn_create_index:students
+DELETE FROM employees WHERE id = 383,0,b:delete_where:employees
+SELECT * FROM employees WHERE name BETWEEN 3652 AND 5366,0,b:select_between:employees
+DELETE FROM products WHERE name = 'bilal') Or SLEEP(5)-- ',1,m:OR SLEEP(5)
+SELECT * FROM products WHERE category_id LIKE '%o''brien%',0,b:select_like:products
+DELETE FROM employees WHERE id = 1300,0,b:delete_where:employees
+UPDATE employees SET hired_on = 'x' WHERE hired_on = 'khan' ORDER BY 10-- ',1,m:ORDER BY 10
+/* dashboard */ SELECT * FROM employees WHERE id = 3105,0,b:hn_block_comment:employees
+"SELECT room_no, COUNT(*) AS n FROM rooms GROUP BY room_no HAVING COUNT(*) > 3",0,b:select_group:rooms
+SELECT name FROM employees,0,b:select_cols:employees
+"SELECT * FROM customers WHERE id = 2228 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM products WHERE id = 4189 # check,0,b:hn_hash_comment:products
+"UPDATE customers SET first_name = 'x' WHERE first_name = 'bilal' UNION ALL SELECT 1,2,3-- '",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM rooms WHERE id = 4165 ; EXEC xp_cmdshell('dir')-- ,1,m:; EXEC xp_cmdshell('dir')
+"SELECT name, salary FROM employees WHERE name = 'smith' UnIOn ALL SELECT 1,2,3#' AND active = 1",1,"m:UNION ALL SELECT 1,2,3"
+"UPDATE employees SET name = 'hina', salary = 8712.71 WHERE id = 1517",0,b:update_multi:employees
+SELECT * FROM employees WHERE salary BETWEEN 3415 AND 9956,0,b:select_between:employees
+DELETE FROM products WHERE name = 'khan' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+SELECT * FROM users WHERE id = 3386 OR email = 'khan',0,b:select_where_or:users
+DELETE FROM users WHERE created_at < '2026-06-30',0,b:delete_range:users
+CREATE INDEX idx_invoices_paid ON invoices (customer_id),0,b:hn_create_index:invoices
+SELECT name FROM students ORDER BY cgpa ASC LIMIT 10,0,b:select_order_limit:students
+"SELECT * FROM invoices WHERE id IN (2229, 4292, 524)",0,b:select_in:invoices
+CREATE INDEX idx_students_cgpa ON students (cgpa),0,b:hn_create_index:students
+"SELECT * FROM employees WHERE id = 3/**/AND/**/SUBSTRING((SELECT/**/password/**/FROM/**/users/**/LIMIT/**/1),1,1)='a'--/**/ LIMIT 10",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM orders WHERE created_at = 'john') OR SLEEP(5)-- ',1,m:OR SLEEP(5)
+"SELECT department, hired_on, salary FROM employees ORDER BY salary DESC LIMIT 38",0,b:select_order_limit:employees
+SELECT * FROM employees WHERE name = 'sara'%20;%20EXEC%20xp_cmdshell('dir')--%20',1,m:; EXEC xp_cmdshell('dir')
+"UPDATE rooms SET room_no = 'x' WHERE id = 475	UNION/**/SELECT/**/NULL,NULL--	",1,"m:UNION/**/SELECT/**/NULL,NULL"
+UPDATE customers SET city = 'x' WHERE id = 622 ; EXEC xp_cmdshell('dir'),1,m:; EXEC xp_cmdshell('dir')
+"SELECT role, id FROM users WHERE email = 'smith') UNION/**/SELECT/**/NULL,NULL-- ' AND active = 1",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE invoices SET amount = 'x' WHERE customer_id = 'ayesha' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- '",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT id, COUNT(*) AS n FROM students GROUP BY id HAVING COUNT(*) > 11",0,b:select_group:students
+"UPDATE customers SET city = 'x' WHERE city = 'hina'%20AND%20BENCHMARK(5000000,MD5(1))--%20'",1,"m:AND BENCHMARK(5000000,MD5(1))"
+DELETE FROM students WHERE name = 'obrien'%20;%20EXEC%20xp_cmdshell('dir')#',1,m:; EXEC xp_cmdshell('dir')
+"SELECT * FROM products WHERE id = 538 UNION SELECT table_name,NULL FROM information_schema.tables-- ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT * FROM students WHERE id = 531 OR %27a%27=%27a%27,1,m:OR 'a'='a'
+SELECT department FROM students WHERE id = 319 -- by id,0,b:hn_line_comment:students
+"SELECT room_no, COUNT(*) AS n FROM rooms GROUP BY room_no HAVING COUNT(*) > 2",0,b:select_group:rooms
+SELECT * FROM students WHERE id = 2312 # fix later,0,b:hn_hash_comment:students
+SELECT * FROM students WHERE cgpa = 'obrien'%20AND%20EXISTS(SELECT%20*%20FROM%20users)--%20',1,m:AND EXISTS(SELECT * FROM users)
+"SELECT CHAR(79) AS letter, salary FROM employees LIMIT 10",0,b:hn_char_fn:employees
+"SELECT department, cgpa FROM students WHERE id = 945) AND BENCHMARK(5000000,MD5(1))--  ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT id, COUNT(*) AS n FROM invoices GROUP BY id HAVING COUNT(*) > 12",0,b:select_group:invoices
+"SELECT cgpa, name FROM students WHERE roll_no = 'obrien'/**/OR/**/7=7/**/AND/**/1=1--/**/' AND active = 1",1,m:OR 7=7 AND 1=1
+SELECT * FROM users WHERE id = 2305 OR role = 'zara',0,b:select_where_or:users
+"DELETE FROM employees WHERE salary = 'hina' UNION/**/SELECT/**/NULL,NULL-- '",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE orders SET created_at = 'x' WHERE id = 4862 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+CREATE INDEX idx_rooms_available ON rooms (room_no),0,b:hn_create_index:rooms
+"DELETE FROM students WHERE department = 'khan') UNION ALL SELECT 1,2,3-- '",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM students WHERE id = 529) ORDER BY 10-- ,1,m:ORDER BY 10
+"SELECT CHAR(85) AS letter, hired_on FROM employees LIMIT 10",0,b:hn_char_fn:employees
+SELECT * FROM employees WHERE id IN (SELECT id FROM rooms WHERE id > 3499),0,b:select_subquery:employees
+SELECT * FROM products WHERE id = 1546 # admin report,0,b:hn_hash_comment:products
+"SELECT * FROM products WHERE id = 3694	UNION	SELEcT	table_name,NULL	FRoM	information_schema.tables--	 LIMIT 10",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"UPDATE employees SET name = 'x' WHERE hired_on = 'ahmed' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'#'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"UPDATE invoices SET customer_id = 2094, amount = 1929 WHERE id = 1724",0,b:update_multi:invoices
+SELECT * FROM students WHERE id = 1057 # fix later,0,b:hn_hash_comment:students
+SELECT * FROM employees WHERE id = 695 AND token = 0xF545,0,b:hn_hex_literal:employees
+DELETE FROM orders WHERE created_at < '2026-01-15',0,b:delete_range:orders
+SELECT * FROM products WHERE id = 1548) OR %27a%27=%27a%27-- ,1,m:OR 'a'='a'
+"SELECT CONCAT(department, ' ', name) AS label FROM students WHERE id = 1662",0,b:select_concat:students
+"SELECT name, COUNT(*) AS n FROM students GROUP BY name HAVING COUNT(*) > 11",0,b:select_group:students
+DELETE FROM employees WHERE id = 244,0,b:delete_where:employees
+SELECT * FROM employees WHERE id = 2350 AND token = 0x49D3,0,b:hn_hex_literal:employees
+SELECT * FROM students WHERE department LIKE '%khan' ; TRUNCATE TABLE logs-- %',1,m:; TRUNCATE TABLE logs
+UPDATE customers SET phone = 'x' WHERE id = 2383)/**/OR/**/SLEEP(5)--/**/,1,m:OR SLEEP(5)
+SELECT * FROM products WHERE id = 1456 # fix later,0,b:hn_hash_comment:products
+SELECT * FROM rooms WHERE id = 1127 OR id = 4509,0,b:select_where_or:rooms
+SELECT * FROM invoices WHERE due_date LIKE '%khan')	;	TRUNCATE	TABLE	logs--	%',1,m:; TRUNCATE TABLE logs
+SELECT * FROM employees WHERE name BETWEEN 2119 AND 5741,0,b:select_between:employees
+"SELECT * FROM customers WHERE id = 3657%20UNION/**/SELECT/**/NULL,NULL LIMIT 10",1,"m:UNION/**/SELECT/**/NULL,NULL"
+UPDATE products SET category_id = 'x' WHERE name = 'sara' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+SELECT * FROM rooms WHERE available = 'david' ; EXEC xp_cmdshell('dir') AND 'x'='x',1,m:; EXEC xp_cmdshell('dir')
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 82 DAY)",0,b:select_date:products
+"DELETE FROM users WHERE role = 'ali'/**/UNION/**/SELECT/**/NULL,NULL/**/AND/**/'x'='x'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE employees SET department = 'x' WHERE id = 544) UNION SELECT table_name,NULL FROM information_schema.tables-- ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT hired_on, name FROM employees WHERE hired_on = 'fatima' OR 7=7 AND 1=1-- ' AND active = 1",1,m:OR 7=7 AND 1=1
+"SELECT stock, COUNT(*) AS n FROM products GROUP BY stock HAVING COUNT(*) > 1",0,b:select_group:products
+"SELECT id, due_date FROM invoices WHERE paid = 'obrien' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'#' AND active = 1",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM users WHERE 1=1 AND role = 'maria',0,b:hn_where_1_1:users
+CREATE INDEX idx_rooms_available ON rooms (floor),0,b:hn_create_index:rooms
+CREATE INDEX idx_students_name ON students (id),0,b:hn_create_index:students
+SELECT * FROM invoices WHERE id = 4017 AND paid <> 1,0,b:select_where_and:invoices
+"SELECT id, COUNT(*) AS n FROM products GROUP BY id HAVING COUNT(*) > 2",0,b:select_group:products
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 27 DAY)",0,b:select_date:products
+"SELECT status, user_id FROM orders WHERE id = 4171 ORDER BY 10--  ORDER BY id",1,m:ORDER BY 10
+DELETE FROM rooms WHERE id < 4011,0,b:delete_range:rooms
+"SELECT * FROM customers WHERE id IN (776, 3786, 835)",0,b:select_in:customers
+"SELECT department, COUNT(*) AS n FROM students GROUP BY department HAVING COUNT(*) > 5",0,b:select_group:students
+"SELECT id, hired_on FROM employees WHERE id = 3359 Or 7=7 and 1=1 ORDER BY id",1,m:OR 7=7 AND 1=1
+"SELECT * FROM invoices WHERE id IN (2520, 852, 1681)",0,b:select_in:invoices
+"INSERT INTO orders (user_id, total, status) VALUES (?, ?, ?)",0,b:insert_ph:orders
+"SELECT id, available FROM rooms WHERE floor = 'sara%27 AND BENCHMARK(5000000,MD5(1)) aNd %27x%27=%27x' AND active = 1",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT * FROM employees WHERE salary = 'zara'/**/UNION/**/SELECT/**/NULL,NULL--/**/'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM products WHERE id = 4685 # check,0,b:hn_hash_comment:products
+"INSERT INTO users (username, email, role) VALUES (?, ?, ?)",0,b:insert_ph:users
+SELECT * FROM users WHERE email = 'bilal' OR email = 'david',0,b:select_where_or:users
+"SELECT cgpa, id, department, roll_no FROM students ORDER BY cgpa ASC LIMIT 66",0,b:select_order_limit:students
+SELECT cgpa FROM students WHERE id = 4388 -- lookup,0,b:hn_line_comment:students
+"SELECT * FROM products WHERE id IN (2274, 685, 2539)",0,b:select_in:products
+"UPDATE rooms SET floor = 'x' WHERE id = 118 UNION ALL SELECT 1,2,3",1,"m:UNION ALL SELECT 1,2,3"
+"UPDATE invoices SET customer_id = 951, amount = 9951.03 WHERE id = 3617",0,b:update_multi:invoices
+DELETE FROM students WHERE name = 'hina'/**/;/**/TRUNCATE/**/TABLE/**/logs--/**/',1,m:; TRUNCATE TABLE logs
+"SELECT name, roll_no FROM students WHERE id = 1874) OR 'a'='a'--  ORDER BY id",1,m:OR 'a'='a'
+SELECT * FROM orders WHERE total LIKE '%maria' OR 'a'='a' AND 'x'='x%',1,m:OR 'a'='a'
+"SELECT id, room_no FROM rooms WHERE id = 3956 AND BENCHMARK(5000000,MD5(1))--  ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT stock, COUNT(*) AS n FROM products GROUP BY stock HAVING COUNT(*) > 20",0,b:select_group:products
+"SELECT * FROM customers WHERE id IN (612, 1661, 1116)",0,b:select_in:customers
+/* audit */ SELECT * FROM employees WHERE id = 831,0,b:hn_block_comment:employees
+"SELECT active, created_at FROM users WHERE id = 647)	OR	7=7	AND	1=1--	 ORDER BY id",1,m:OR 7=7 AND 1=1
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 43 DAY)",0,b:select_date:products
+DELETE FROM rooms WHERE id < 3878,0,b:delete_range:rooms
+DELETE FROM rooms WHERE id < 1221,0,b:delete_range:rooms
+/* audit */ SELECT * FROM employees WHERE id = 2769,0,b:hn_block_comment:employees
+UPDATE products SET category_id = 'x' WHERE id = 3365 anD EXISTS(SELECT * FROM users),1,m:AND EXISTS(SELECT * FROM users)
+"SELECT phone, id FROM customers WHERE phone = 'ahmed'%20UNION%20SELECT%20table_name,NULL%20FROM%20information_schema.tables#' AND active = 1",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT created_at, id FROM users WHERE active = ?",0,b:select_placeholder:users
+"SELECT cgpa, COUNT(*) AS n FROM students GROUP BY cgpa HAVING COUNT(*) > 11",0,b:select_group:students
+/* audit */ SELECT * FROM employees WHERE id = 43,0,b:hn_block_comment:employees
+"SELECT cgpa, department, id, name FROM students ORDER BY roll_no ASC LIMIT 19",0,b:select_order_limit:students
+"SELECT created_at, user_id FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 45",0,b:hn_where_1_1_b:orders
+"SELECT paid, due_date FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 40",0,b:hn_where_1_1_b:invoices
+ALTER TABLE employees ADD COLUMN notes VARCHAR(20),0,b:hn_alter:employees
+"SELECT id, COUNT(*) AS n FROM employees GROUP BY id HAVING COUNT(*) > 11",0,b:select_group:employees
+SELECT * FROM orders WHERE id = 1823 ; EXEC xp_cmdshell('dir')--  LIMIT 10,1,m:; EXEC xp_cmdshell('dir')
+"UPDATE products SET price = 'x' WHERE id = 3638/**/AND/**/BENCHMARK(5000000,MD5(1))--/**/",1,"m:AND BENCHMARK(5000000,MD5(1))"
+DELETE FROM orders WHERE created_at < '2026-03-01',0,b:delete_range:orders
+"SELECT * FROM products WHERE id IN (995, 98, 506)",0,b:select_in:products
+"DELETE FROM customers WHERE first_name = 'khan' uNiON seLEcT column_name,NULL FROM information_schema.columns WHeRE table_name='users'#'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (2271, 3055, false)",0,b:insert:invoices
+"SELECT * FROM products WHERE name = 'usman' UNIoN ALL SELECT 1,2,3#'",1,"m:UNION ALL SELECT 1,2,3"
+DELETE FROM invoices WHERE customer_id = 'maria'/**/;/**/EXEC/**/xp_cmdshell('dir')#',1,m:; EXEC xp_cmdshell('dir')
+"SELECT MAX(hired_on), MIN(salary), AVG(hired_on) FROM employees",0,b:select_agg:employees
+UPDATE orders SET created_at = '2026-01-15' WHERE id = 4258,0,b:update:orders
+"SELECT salary, department FROM employees WHERE id = 474 and SUBSTRING((SELECT password FroM users lIMIT 1),1,1)='a' ORDER BY id",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 55 DAY)",0,b:select_date:customers
+"UPDATE invoices SET customer_id = 1640, amount = 6282.71 WHERE id = 908",0,b:update_multi:invoices
+"SELECT * FROM products WHERE id = 4562) UNION ALL SElECT 1,2,3--  LIMIT 10",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM employees WHERE id = 2584) OR 'a'='a'-- ,1,m:OR 'a'='a'
+"SELECT * FROM orders WHERE total LIKE '%smith' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'#%'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT * FROM invoices WHERE due_date LIKE '%sara')/**/AnD/**/SUBSTRING((SELECT/**/password/**/FrOm/**/users/**/limiT/**/1),1,1)='a'--/**/%'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"UPDATE employees SET department = 'x' WHERE id = 1760%20UNION%20ALL%20SELECT%201,2,3",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM orders WHERE id = 1585 OR SLEEP(5)--  LIMIT 10,1,m:OR SLEEP(5)
+SELECT * FROM employees WHERE department BETWEEN 94 AND 7173,0,b:select_between:employees
+SELECT * FROM products WHERE name LIKE '%fatima%',0,b:select_like:products
+ALTER TABLE customers ADD COLUMN phone2 VARCHAR(50),0,b:hn_alter:customers
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 6 DAY)",0,b:select_date:customers
+DELETE FROM products WHERE stock = 'ahmed' OR 'a'='a'#',1,m:OR 'a'='a'
+SELECT * FROM rooms WHERE id = 2250) OR SLEEP(5)--  LIMIT 10,1,m:OR SLEEP(5)
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 39 DAY)",0,b:select_date:customers
+UPDATE users SET username = 'x' WHERE id = 2563 ; TRUNCATE TABLE logs,1,m:; TRUNCATE TABLE logs
+SELECT * FROM customers WHERE id = 3522) OR 7=7 AND 1=1-- ,1,m:OR 7=7 AND 1=1
+"UPDATE users SET email = 'x' WHERE role = 'khan') AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+UPDATE orders SET user_id = 2054 WHERE id = 4009,0,b:update:orders
+UPDATE rooms SET room_no = 'x' WHERE floor = 'john'/**/;/**/EXEC/**/xp_cmdshell('dir')/**/and/**/'x'='x',1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM orders WHERE total = 'smith') AND EXISTS(SELECT * FROM users)-- ',1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM orders WHERE total = 'ahmed')  ORDER  BY  10--  ',1,m:ORDER BY 10
+"UPDATE products SET stock = 'x' WHERE stock = 'hina') UNION ALL SELECT 1,2,3-- '",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT * FROM invoices WHERE paid LIKE '%ahmed' UNION/**/SELECT/**/NULL,NULL-- %'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM customers WHERE id = 2935)/**/ORDER/**/BY/**/10--/**/ LIMIT 10,1,m:ORDER BY 10
+"SELECT id, roll_no FROM students WHERE roll_no = 'obrien'  ;  TRUNCATE  tAbLE  logs--  ' AND active = 1",1,m:; TRUNCATE TABLE logs
+SELECT * FROM users WHERE 1=1 AND email = 'usman',0,b:hn_where_1_1:users
+"UPDATE invoices SET customer_id = 2479, amount = 9774.28 WHERE id = 4584",0,b:update_multi:invoices
+"SELECT CONCAT(roll_no, ' ', id) AS label FROM students WHERE id = 157",0,b:select_concat:students
+"SELECT MAX(stock), MIN(stock), AVG(price) FROM products",0,b:select_agg:products
+SELECT * FROM invoices WHERE amount = 2156.26 AND amount <> 2321,0,b:select_where_and:invoices
+SELECT * FROM customers WHERE id = 4311 ; TRUNCATE TABLE logs--  LIMIT 10,1,m:; TRUNCATE TABLE logs
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 81 DAY)",0,b:select_date:products
+"SELECT id, department FROM students WHERE id = 1615 and EXISTS(SELECT * FROM users) ORDER BY id",1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM students WHERE id = 173 # fix later,0,b:hn_hash_comment:students
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 10 DAY)",0,b:select_date:customers
+"SELECT CHAR(83) AS letter, hired_on FROM employees LIMIT 10",0,b:hn_char_fn:employees
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 4 DAY)",0,b:select_date:customers
+SELECT * FROM products WHERE category_id LIKE '%khan' ORDER BY 10 AND 'x'='x%',1,m:ORDER BY 10
+SELECT * FROM employees WHERE id = 2401) OR 7=7 AND 1=1--  LIMIT 10,1,m:OR 7=7 AND 1=1
+UPDATE rooms SET room_no = 'x' WHERE id = 3735 ORDER BY 10-- ,1,m:ORDER BY 10
+"SELECT * FROM invoices WHERE id IN (565, 3811, 2313)",0,b:select_in:invoices
+SELECT * FROM users WHERE email = 'zara') ; EXEC xp_cmdshell('dir')-- ',1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM students WHERE roll_no LIKE '%obrien'/**/AND/**/EXISTS(SELECT/**/*/**/FROM/**/users)--/**/%',1,m:AND EXISTS(SELECT * FROM users)
+"SELECT * FROM invoices WHERE amount = 'usman' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a' AND 'x'='x'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+DELETE FROM rooms WHERE id < 1760,0,b:delete_range:rooms
+SELECT * FROM customers WHERE city LIKE '%sara%',0,b:select_like:customers
+SELECT * FROM students WHERE id = 2200 # admin report,0,b:hn_hash_comment:students
+SELECT * FROM employees WHERE id IN (SELECT id FROM rooms WHERE id > 1581),0,b:select_subquery:employees
+SELECT active FROM users UNION SELECT active FROM users_archive,0,b:hn_union_legit:users
+"SELECT id, name, salary, hired_on FROM employees ORDER BY id DESC LIMIT 75",0,b:select_order_limit:employees
+"SELECT id, paid, due_date, amount FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 18",0,b:hn_where_1_1_b:invoices
+SELECT * FROM users WHERE role = 'ali') OR 'a'='a'-- ',1,m:OR 'a'='a'
+"SELECT id, paid FROM invoices WHERE id = 4518) UNION SELECT table_name,NULL FROM information_schema.tables--  ORDER BY id",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT department FROM employees UNION SELECT department FROM employees_archive,0,b:hn_union_legit:employees
+"SELECT created_at, username FROM users",0,b:select_cols:users
+"DELETE FROM invoices WHERE amount = 'usman' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"UPDATE products SET price = 'x' WHERE category_id = 'usman')/**/UNION/**/SELECT/**/column_name,NULL/**/FROM/**/information_schema.columns/**/WHERE/**/table_name='users'--/**/'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+/* cron job */ SELECT * FROM customers WHERE id = 379,0,b:hn_block_comment:customers
+"SELECT * FROM rooms WHERE id = 1998 UNION/**/SELECT/**/NULL,NULL--  LIMIT 10",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE users SET username = 'ahmed', email = 'o''brien' WHERE id = 3909",0,b:update_multi:users
+"SELECT capacity, COUNT(*) AS n FROM rooms GROUP BY capacity HAVING COUNT(*) > 18",0,b:select_group:rooms
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (3060, 1591, true)",0,b:insert:invoices
+"SELECT * FROM invoices WHERE id IN (4065, 242, 3136)",0,b:select_in:invoices
+SELECT * FROM invoices WHERE due_date = '2026-09-10' AND due_date <> '2026-09-10',0,b:select_where_and:invoices
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (?, ?, ?)",0,b:insert_ph:invoices
+"SELECT MAX(id), MIN(id), AVG(id) FROM products",0,b:select_agg:products
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 75 DAY)",0,b:select_date:products
+SELECT * FROM employees WHERE hired_on = 'ahmed' OR 7=7 AND 1=1 AND 'x'='x',1,m:OR 7=7 AND 1=1
+SELECT * FROM rooms WHERE available = true OR available = 1,0,b:select_where_or:rooms
+"SELECT customer_id, id FROM invoices WHERE id = 4043 UNION/**/SELECT/**/NULL,NULL--  ORDER BY id",1,"m:UNION/**/SELECT/**/NULL,NULL"
+DELETE FROM orders WHERE total = 'zara'	ORDER	BY	10	AND	'x'='x',1,m:ORDER BY 10
+"SELECT id, department FROM students WHERE id = 2765 -- active only",0,b:hn_line_comment:students
+"SELECT hired_on, salary, department, name FROM employees ORDER BY department ASC LIMIT 43",0,b:select_order_limit:employees
+"SELECT department, salary FROM employees WHERE id = 2008 OR SLEEP(5) ORDER BY id",1,m:OR SLEEP(5)
+SELECT * FROM customers WHERE city LIKE '%john%',0,b:select_like:customers
+"SELECT * FROM customers WHERE id = 4503) AND BENCHMARK(5000000,MD5(1))-- ",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"UPDATE employees SET name = 'x' WHERE name = 'hina' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- '",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT city, first_name, last_name FROM customers",0,b:select_cols:customers
+/* cron job */ SELECT * FROM customers WHERE id = 2273,0,b:hn_block_comment:customers
+UPDATE orders SET created_at = '2025-12-31' WHERE id = 3744,0,b:update:orders
+SELECT * FROM students WHERE cgpa LIKE '%zara%27 ORDER BY 10 AND %27x%27=%27x%',1,m:ORDER BY 10
+"SELECT username, active FROM users WHERE active = 'sara') UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- ' AND active = 1",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT phone, id FROM customers WHERE first_name = 'usman' AND EXISTS(SELECT * FROM users)-- ' AND active = 1",1,m:AND EXISTS(SELECT * FROM users)
+"SELECT CONCAT(department, ' ', department) AS label FROM students WHERE id = 187",0,b:select_concat:students
+"SELECT * FROM customers WHERE id = 4436 UNION SELECT column_name,NULL FROM information_schema.columns WHeRE table_name='users'--  LIMIT 10",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM products WHERE id = 961 AND token = 0xC21E,0,b:hn_hex_literal:products
+"SELECT last_name, id FROM customers WHERE id = 4177/**/;/**/EXEC/**/xp_cmdshell('dir')--/**/ ORDER BY id",1,m:; EXEC xp_cmdshell('dir')
+DELETE FROM employees WHERE id = 1287,0,b:delete_where:employees
+CREATE INDEX idx_rooms_floor ON rooms (capacity),0,b:hn_create_index:rooms
+"DELETE FROM students WHERE cgpa = 'david' AND SUBSTRING((SELECT password FROM users LimIt 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM products WHERE id = 4582 AND token = 0xAAE6,0,b:hn_hex_literal:products
+SELECT * FROM products WHERE id = 3800%20OR%207=7%20AND%201=1,1,m:OR 7=7 AND 1=1
+"SELECT paid, customer_id FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 5",0,b:hn_where_1_1_b:invoices
+"DELETE FROM products WHERE category_id = 'hina' AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM invoices WHERE id = 2812)/**/;/**/EXEC/**/xp_cmdshell('dir')--/**/ LIMIT 10,1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM customers WHERE id = 2692  ;  TRUNCATE  TABLE  logs LIMIT 10,1,m:; TRUNCATE TABLE logs
+"SELECT * FROM rooms WHERE room_no = 'sara' AND SUBSTRING((SELECT password fROM users LIMIT 1),1,1)='a'#'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT * FROM products WHERE name = 'fatima' UNION SELECT table_name,NULL FROM information_schema.tables-- '",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT * FROM customers WHERE id IN (4033, 4442, 2532)",0,b:select_in:customers
+"SELECT id, COUNT(*) AS n FROM invoices GROUP BY id HAVING COUNT(*) > 17",0,b:select_group:invoices
+CREATE INDEX idx_invoices_id ON invoices (amount),0,b:hn_create_index:invoices
+"SELECT MAX(department), MIN(name), AVG(id) FROM employees",0,b:select_agg:employees
+ALTER TABLE employees ADD COLUMN flag VARCHAR(50),0,b:hn_alter:employees
+"SELECT id, room_no FROM rooms WHERE id = 3089 OR 7=7 AND 1=1--  ORDER BY id",1,m:OR 7=7 AND 1=1
+"SELECT * FROM customers WHERE id IN (707, 3560, 951)",0,b:select_in:customers
+"SELECT * FROM products WHERE id = 417)  UNION/**/SELECT/**/NULL,NULL--   LIMIT 10",1,"m:UNION/**/SELECT/**/NULL,NULL"
+UPDATE orders SET created_at = 'x' WHERE total = 'bilal%27 ; EXEC xp_cmdshell(%27dir%27)-- ',1,m:; EXEC xp_cmdshell('dir')
+"SELECT * FROM orders WHERE user_id LIKE '%usman' AND BENCHMARK(5000000,MD5(1))#%'",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT name, COUNT(*) AS n FROM products GROUP BY name HAVING COUNT(*) > 17",0,b:select_group:products
+SELECT * FROM rooms WHERE available LIKE '%smith') Or 7=7 AND 1=1-- %',1,m:OR 7=7 AND 1=1
+SELECT * FROM users WHERE role = 'khan' AND EXISTS(SELECT * FROM users) AND 'x'='x',1,m:AND EXISTS(SELECT * FROM users)
+SELECT email FROM users UNION SELECT email FROM users_archive,0,b:hn_union_legit:users
+DELETE FROM products WHERE name = 'sara' AND EXISTS(SELECT * FROM users)#',1,m:AND EXISTS(SELECT * FROM users)
+SELECT id FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 21,0,b:hn_where_1_1_b:invoices
+"UPDATE employees SET name = 'hina', salary = 2157 WHERE id = 4236",0,b:update_multi:employees
+SELECT * FROM employees WHERE id = 3413 OR hired_on = '2025-12-31',0,b:select_where_or:employees
+"DELETE FROM users WHERE email = 'zara') UNION ALL SELECT 1,2,3-- '",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM employees WHERE hired_on = '2025-12-31' OR id = 2053,0,b:select_where_or:employees
+CREATE INDEX idx_students_id ON students (id),0,b:hn_create_index:students
+DELETE FROM users WHERE created_at < '2026-03-01',0,b:delete_range:users
+"SELECT department, COUNT(*) AS n FROM students GROUP BY department HAVING COUNT(*) > 13",0,b:select_group:students
+"DELETE FROM invoices WHERE due_date = 'ayesha'%20UNION%20ALL%20SELECT%201,2,3#'",1,"m:UNION ALL SELECT 1,2,3"
+"UPDATE products SET stock = 'x' WHERE id = 3487 UNION ALL SELECT 1,2,3-- ",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT cgpa, COUNT(*) AS n FROM students GROUP BY cgpa HAVING COUNT(*) > 18",0,b:select_group:students
+"SELECT MAX(stock), MIN(price), AVG(id) FROM products",0,b:select_agg:products
+"SELECT * FROM products WHERE name = 'ahmed%27) AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"DELETE FROM customers WHERE last_name = 'ahmed')%20UNIon%20SELECT%20table_name,NULL%20FROM%20information_schema.tables--%20'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT * FROM rooms WHERE id = 872 ; TRUNCATE TABLE logs--  LIMIT 10,1,m:; TRUNCATE TABLE logs
+DELETE FROM employees WHERE salary = 'bilal' ; EXEC xp_cmdshell('dir')-- ',1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM rooms WHERE id = 1419) ; TRUNCATE TABLE logs--  LIMIT 10,1,m:; TRUNCATE TABLE logs
+UPDATE students SET department = 'x' WHERE id = 3336 OR 'a'='a',1,m:OR 'a'='a'
+/* audit */ SELECT * FROM employees WHERE id = 3463,0,b:hn_block_comment:employees
+SELECT * FROM products WHERE id = 359 # check,0,b:hn_hash_comment:products
+SELECT created_at FROM users,0,b:select_cols:users
+"SELECT due_date, amount, customer_id, id FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 41",0,b:hn_where_1_1_b:invoices
+SELECT * FROM users WHERE created_at LIKE '%maria') OR 'a'='a'-- %',1,m:OR 'a'='a'
+"SELECT status, total FROM orders WHERE id = 3781 OR SLEEP(5) ORDER BY id",1,m:OR SLEEP(5)
+"SELECT room_no, floor FROM rooms WHERE id = 2405 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a' ORDER BY id",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"UPDATE invoices SET customer_id = 'x' WHERE id = 2398 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM products WHERE stock LIKE '%ayesha%',0,b:select_like:products
+SELECT * FROM students WHERE id = 2486 # check,0,b:hn_hash_comment:students
+"SELECT amount, customer_id FROM invoices WHERE id = 1947/**/OR/**/SLEEP(5)--/**/ ORDER BY id",1,m:OR SLEEP(5)
+"SELECT MAX(status), MIN(user_id), AVG(created_at) FROM orders",0,b:select_agg:orders
+SELECT email FROM users WHERE email = :value,0,b:select_placeholder:users
+"UPDATE users SET role = 'x' WHERE username = 'bilal') AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM employees WHERE department = 'obrien') OR 'a'='a'-- ',1,m:OR 'a'='a'
+SELECT * FROM users WHERE active = true OR active = 0,0,b:select_where_or:users
+"UPDATE products SET price = 'x' WHERE id = 2406  unION  SELECT  column_name,NULL  from  information_schema.columns  WHERE  table_name='users'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT floor, COUNT(*) AS n FROM rooms GROUP BY floor HAVING COUNT(*) > 2",0,b:select_group:rooms
+SELECT amount FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 9,0,b:hn_where_1_1_b:invoices
+"SELECT * FROM products WHERE id IN (2090, 843, 4702)",0,b:select_in:products
+"SELECT due_date, id, customer_id, paid FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 30",0,b:hn_where_1_1_b:invoices
+"SELECT * FROM students WHERE id = 4678 UNION SELECT column_name,NULL from information_schema.columns WHERE table_name='users'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT * FROM orders WHERE created_at LIKE '%john'  AND  SUBSTRING((SELECT  password  fRom  users  LIMIT  1),1,1)='a'  and  'x'='x%'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT id, paid FROM invoices WHERE id = 3458) oR 7=7 and 1=1--  ORDER BY id",1,m:OR 7=7 AND 1=1
+UPDATE employees SET salary = 'x' WHERE id = 4131)%20;%20TRUNCATE%20TAblE%20logs--%20,1,m:; TRUNCATE TABLE logs
+UPDATE orders SET user_id = 2498 WHERE id = 938,0,b:update:orders
+UPDATE students SET name = 'x' WHERE cgpa = 'john'%20OR%20SLEEP(5)#',1,m:OR SLEEP(5)
+SELECT roll_no FROM students WHERE id = 4702 -- active only,0,b:hn_line_comment:students
+"SELECT first_name, last_name FROM customers WHERE city = 'ayesha'  UNION/**/SELECT/**/NULL,NULL#' AND active = 1",1,"m:UNION/**/SELECT/**/NULL,NULL"
+CREATE INDEX idx_students_id ON students (department),0,b:hn_create_index:students
+SELECT * FROM users WHERE id = 4194)/**/ORDER/**/BY/**/10--/**/ LIMIT 10,1,m:ORDER BY 10
+"SELECT total, status FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 36",0,b:hn_where_1_1_b:orders
+"UPDATE rooms SET available = 'x' WHERE id = 2104 UNION/**/SELECT/**/NULL,NULL",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT * FROM products WHERE id IN (2253, 2293, 3654)",0,b:select_in:products
+SELECT * FROM products WHERE name = 'david' OR 7=7 AND 1=1#',1,m:OR 7=7 AND 1=1
+"SELECT name, COUNT(*) AS n FROM products GROUP BY name HAVING COUNT(*) > 4",0,b:select_group:products
+DELETE FROM employees WHERE name = 'david' OR 7=7 AND 1=1#',1,m:OR 7=7 AND 1=1
+"SELECT id, department FROM students WHERE id = 645/**/OR/**/7=7/**/AND/**/1=1 ORDER BY id",1,m:OR 7=7 AND 1=1
+"SELECT user_id, total FROM orders WHERE id = 4857)%20AND%20EXISTS(SELECT%20*%20FROM%20users)--%20 ORDER BY id",1,m:AND EXISTS(SELECT * FROM users)
+"SELECT * FROM users WHERE email LIKE '%maria' UNION SELECT table_name,NULL FROM information_schema.tables-- %'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+ALTER TABLE employees ADD COLUMN flag VARCHAR(20),0,b:hn_alter:employees
+DELETE FROM users WHERE role = 'ayesha' OR 'a'='a'-- ',1,m:OR 'a'='a'
+UPDATE orders SET created_at = 'x' WHERE id = 3477  AND  EXISTS(SELECT  *  FROM  users)--  ,1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM products WHERE price LIKE '%ahmed%',0,b:select_like:products
+UPDATE orders SET status = 'closed' WHERE id = 2457,0,b:update:orders
+"SELECT amount, COUNT(*) AS n FROM invoices GROUP BY amount HAVING COUNT(*) > 18",0,b:select_group:invoices
+SELECT * FROM products WHERE id = 2605 OR 7=7 AND 1=1--  LIMIT 10,1,m:OR 7=7 AND 1=1
+SELECT * FROM products WHERE id = 274)/**/;/**/EXEC/**/xp_cmdshell('dir')--/**/ LIMIT 10,1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM invoices WHERE id = 3279) OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+UPDATE orders SET total = 2012 WHERE id = 3803,0,b:update:orders
+"SELECT created_at, id, user_id FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 19",0,b:hn_where_1_1_b:orders
+"SELECT active, id FROM users WHERE id = 486 OR 7=7 AND 1=1 ORDER BY id",1,m:OR 7=7 AND 1=1
+SELECT * FROM invoices WHERE id = 4079 ; EXEC xp_cmdshell(%27dir%27)--  LIMIT 10,1,m:; EXEC xp_cmdshell('dir')
+CREATE INDEX idx_invoices_paid ON invoices (due_date),0,b:hn_create_index:invoices
+SELECT * FROM users WHERE active LIKE '%david') ; TRUNCATE TaBLe logs-- %',1,m:; TRUNCATE TABLE logs
+"SELECT * FROM products WHERE id IN (4018, 311, 740)",0,b:select_in:products
+SELECT * FROM employees WHERE id = 3319 AND token = 0xE3C6,0,b:hn_hex_literal:employees
+"SELECT phone, city FROM customers",0,b:select_cols:customers
+"SELECT * FROM users WHERE id = 3153) AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT cgpa, id FROM students WHERE department = 'hina' UNION SELECT table_name,NULL FROM information_schema.tables AND 'x'='x' AND active = 1",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT stock, category_id FROM products WHERE id = 2422 UNION SELECT table_name,NULL FROM information_schema.tables ORDER BY id",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"UPDATE employees SET department = 'x' WHERE department = 'hina'/**/AND/**/SUBSTRING((SELECT/**/password/**/FROM/**/users/**/LIMIT/**/1),1,1)='a'/**/AND/**/'x'='x'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT * FROM customers WHERE id IN (2637, 2034, 3410)",0,b:select_in:customers
+SELECT * FROM products WHERE id = 1154 OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+"UPDATE employees SET department = 'x' WHERE id = 192/**/UNION/**/SELECT/**/table_name,NULL/**/FROM/**/information_schema.tables--/**/",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT id, stock FROM products WHERE name = 'ali') AND BENCHMARK(5000000,MD5(1))-- ' AND active = 1",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT * FROM customers WHERE id IN (1071, 1624, 3282)",0,b:select_in:customers
+/* cron job */ SELECT * FROM users WHERE id = 1626,0,b:hn_block_comment:users
+SELECT * FROM products WHERE id = 2424 AND id <> 4159,0,b:select_where_and:products
+SELECT * FROM users WHERE 1=1 AND id = 3807,0,b:hn_where_1_1:users
+SELECT * FROM employees WHERE name BETWEEN 1557 AND 8353,0,b:select_between:employees
+/* report */ SELECT * FROM users WHERE id = 301,0,b:hn_block_comment:users
+"SELECT floor, id FROM rooms WHERE id = 4224) ; EXEC xp_cmdshell('dir')--  ORDER BY id",1,m:; EXEC xp_cmdshell('dir')
+SELECT id FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 48,0,b:hn_where_1_1_b:invoices
+"DELETE FROM students WHERE department = 'ali' UNION/**/SELECT/**/NULL,NULL AND 'x'='x'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT id, roll_no FROM students WHERE id = 521 -- lookup",0,b:hn_line_comment:students
+"SELECT created_at, status FROM orders WHERE id = 1647 UNION ALL SELECT 1,2,3 ORDER BY id",1,"m:UNION ALL SELECT 1,2,3"
+DELETE FROM users WHERE created_at < '2026-09-10',0,b:delete_range:users
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 79 DAY)",0,b:select_date:customers
+SELECT * FROM products WHERE id = 4518 AND token = 0xFE6C,0,b:hn_hex_literal:products
+SELECT * FROM products WHERE id = 3512 AND token = 0x97CD,0,b:hn_hex_literal:products
+SELECT * FROM users WHERE role LIKE '%sara' OR 7=7 AND 1=1 AND 'x'='x%',1,m:OR 7=7 AND 1=1
+SELECT * FROM students WHERE id = 2165  OR  'a'='a'--   LIMIT 10,1,m:OR 'a'='a'
+"SELECT * FROM products WHERE name = 'fatima') and SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT * FROM employees WHERE hired_on LIKE '%khan' UNION/**/SELECT/**/NULL,NULL-- %'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT department, name FROM employees",0,b:select_cols:employees
+"UPDATE users SET created_at = 'x' WHERE active = 'ahmed' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'#'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"INSERT INTO students (name, roll_no, department) VALUES (?, ?, ?)",0,b:insert_ph:students
+"UPDATE employees SET department = 'x' WHERE id = 4195) UnIoN ALL SELECT 1,2,3-- ",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT available, COUNT(*) AS n FROM rooms GROUP BY available HAVING COUNT(*) > 1",0,b:select_group:rooms
+SELECT created_at FROM orders UNION SELECT created_at FROM orders_archive,0,b:hn_union_legit:orders
+"SELECT name, department FROM employees WHERE department = 'ahmed' OR SLEEP(5) AND 'x'='x' AND active = 1",1,m:OR SLEEP(5)
+"SELECT * FROM products WHERE id = 1675 UNION/**/SELECT/**/NULL,NULL-- ",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"DELETE FROM invoices WHERE due_date = 'bilal')  UNION/**/SELECT/**/NULL,NULL--  '",1,"m:UNION/**/SELECT/**/NULL,NULL"
+UPDATE products SET stock = 'x' WHERE id = 1045/**/AND/**/EXISTS(SELECT/**/*/**/FROM/**/users),1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM employees WHERE id = 1996 OR 7=7 AND 1=1--  LIMIT 10,1,m:OR 7=7 AND 1=1
+UPDATE orders SET user_id = 3968 WHERE id = 3533,0,b:update:orders
+"SELECT roll_no, id FROM students WHERE id = 2364/**/OR/**/SLEEP(5)--/**/ ORDER BY id",1,m:OR SLEEP(5)
+SELECT * FROM invoices WHERE due_date = '2026-06-30' AND paid <> true,0,b:select_where_and:invoices
+SELECT * FROM users WHERE 1=1 AND created_at = '2025-12-31',0,b:hn_where_1_1:users
+CREATE INDEX idx_rooms_id ON rooms (room_no),0,b:hn_create_index:rooms
+SELECT * FROM employees WHERE id IN (SELECT id FROM rooms WHERE id > 260),0,b:select_subquery:employees
+ALTER TABLE employees ADD COLUMN flag VARCHAR(255),0,b:hn_alter:employees
+"SELECT id, amount FROM invoices WHERE id = 2062 ; TRUNCATE TABLE logs--  ORDER BY id",1,m:; TRUNCATE TABLE logs
+SELECT * FROM employees WHERE 1=1 AND name = 'sara',0,b:hn_where_1_1:employees
+SELECT * FROM products WHERE id = 3511 OR SLEEP(5)--  LIMIT 10,1,m:OR SLEEP(5)
+SELECT * FROM users WHERE email = 'khan' ORDER BY 10-- ',1,m:ORDER BY 10
+SELECT * FROM orders WHERE id = 4317 OR SLEEP(5) LIMIT 10,1,m:OR SLEEP(5)
+"SELECT id, floor FROM rooms WHERE room_no = 'ahmed' AND BENCHMARK(5000000,MD5(1))#' AND active = 1",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM invoices WHERE id = 2361 AND customer_id <> 2468,0,b:select_where_and:invoices
+"SELECT department, name FROM employees WHERE id = 202) ORDER BY 10--  ORDER BY id",1,m:ORDER BY 10
+SELECT hired_on FROM employees,0,b:select_cols:employees
+"SELECT created_at, status FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 46",0,b:hn_where_1_1_b:orders
+SELECT * FROM rooms WHERE id = 3511%20OR%20'a'='a'--%20,1,m:OR 'a'='a'
+SELECT * FROM invoices WHERE due_date LIKE '%maria' ORDER BY 10 AND 'x'='x%',1,m:ORDER BY 10
+"SELECT * FROM invoices WHERE id = 496 UNION/**/SELECT/**/NULL,NULL-- ",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT stock, name FROM products WHERE id = 2370 UNION/**/SELECT/**/NULL,NULL ORDER BY id",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE users SET username = 'x' WHERE id = 2832 UNION/**/SELECT/**/NULL,NULL",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT name, id, department, cgpa FROM students ORDER BY roll_no DESC LIMIT 43",0,b:select_order_limit:students
+DELETE FROM users WHERE email = 'fatima' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+DELETE FROM employees WHERE id = 4933,0,b:delete_where:employees
+CREATE INDEX idx_students_roll_no ON students (roll_no),0,b:hn_create_index:students
+SELECT * FROM products WHERE stock LIKE '%zara'	OR	'a'='a'	AND	'x'='x%',1,m:OR 'a'='a'
+SELECT * FROM employees WHERE salary = 4506 OR salary = 1427,0,b:select_where_or:employees
+SELECT * FROM users WHERE username = 'smith' OrDeR BY 10#',1,m:ORDER BY 10
+DELETE FROM employees WHERE hired_on = 'ali')/**/OR/**/7=7/**/AND/**/1=1--/**/',1,m:OR 7=7 AND 1=1
+"SELECT * FROM users WHERE id = 2976/**/UNION/**/ALL/**/SELECT/**/1,2,3",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT * FROM users WHERE id = 1681 AND BENCHMARK(5000000,MD5(1))-- ",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT cgpa FROM students ORDER BY department ASC LIMIT 18,0,b:select_order_limit:students
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 84 DAY)",0,b:select_date:products
+SELECT * FROM students WHERE id = 2979 # fix later,0,b:hn_hash_comment:students
+SELECT * FROM customers WHERE phone LIKE '%john' OR SLEEP(5) AND 'x'='x%',1,m:OR SLEEP(5)
+"SELECT MAX(category_id), MIN(name), AVG(price) FROM products",0,b:select_agg:products
+SELECT * FROM invoices WHERE id = 1317) ; EXEC xp_cmdshell('dir')--  LIMIT 10,1,m:; EXEC xp_cmdshell('dir')
+DELETE FROM employees WHERE id = 4533,0,b:delete_where:employees
+SELECT last_name FROM customers UNION SELECT last_name FROM customers_archive,0,b:hn_union_legit:customers
+"SELECT id, floor FROM rooms WHERE id = 326 UnIon SEleCT column_name,NULL fROM information_schema.columns wHERE table_name='users' ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"UPDATE employees SET name = 'ali', salary = 1000 WHERE id = 3061",0,b:update_multi:employees
+"SELECT * FROM invoices WHERE paid = 'david') unION SELECT column_name,NULL froM information_schema.columns WHERE table_name='users'-- '",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+/* dashboard */ SELECT * FROM users WHERE id = 4000,0,b:hn_block_comment:users
+/* report */ SELECT * FROM employees WHERE id = 3294,0,b:hn_block_comment:employees
+"SELECT MAX(created_at), MIN(id), AVG(id) FROM orders",0,b:select_agg:orders
+SELECT * FROM products WHERE price LIKE '%khan%',0,b:select_like:products
+UPDATE users SET active = 'x' WHERE active = 'sara' OR 7=7 AND 1=1#',1,m:OR 7=7 AND 1=1
+DELETE FROM rooms WHERE id < 3469,0,b:delete_range:rooms
+SELECT * FROM orders WHERE id = 2224) OR 'a'='a'-- ,1,m:OR 'a'='a'
+"UPDATE employees SET name = 'usman', salary = 2585 WHERE id = 1240",0,b:update_multi:employees
+"SELECT capacity, floor FROM rooms WHERE room_no = 'maria' UNION/**/SELECT/**/NULL,NULL-- ' AND active = 1",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE products SET price = 'x' WHERE id = 3067)  UNION  SELECT  table_name,NULL  FROM  information_schema.tables--  ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT username, role FROM users WHERE id = 1098) UNION ALL SELECT 1,2,3--  ORDER BY id",1,"m:UNION ALL SELECT 1,2,3"
+/* report */ SELECT * FROM users WHERE id = 427,0,b:hn_block_comment:users
+"SELECT MAX(name), MIN(category_id), AVG(price) FROM products",0,b:select_agg:products
+SELECT id FROM orders UNION SELECT id FROM orders_archive,0,b:hn_union_legit:orders
+SELECT * FROM employees WHERE id IN (SELECT id FROM orders WHERE id > 4416),0,b:select_subquery:employees
+SELECT * FROM users WHERE 1=1 AND role = 'o''brien',0,b:hn_where_1_1:users
+SELECT * FROM products WHERE id = 903 AND token = 0x497A,0,b:hn_hex_literal:products
+SELECT * FROM customers WHERE last_name LIKE '%sara' ORDER BY 10-- %',1,m:ORDER BY 10
+"SELECT due_date, COUNT(*) AS n FROM invoices GROUP BY due_date HAVING COUNT(*) > 10",0,b:select_group:invoices
+"SELECT * FROM products WHERE id = 2364  UNION  SELECT  table_name,NULL  FROM  information_schema.tables LIMIT 10",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT * FROM invoices WHERE paid = 1 AND paid <> 0,0,b:select_where_and:invoices
+SELECT * FROM employees WHERE 1=1 AND name = 'ali',0,b:hn_where_1_1:employees
+SELECT id FROM users UNION SELECT id FROM users_archive,0,b:hn_union_legit:users
+"UPDATE users SET username = 'usman', email = 'zara' WHERE id = 3514",0,b:update_multi:users
+SELECT * FROM customers WHERE last_name LIKE '%ali%',0,b:select_like:customers
+SELECT * FROM products WHERE price = 3937 AND category_id <> 841,0,b:select_where_and:products
+UPDATE users SET active = 'x' WHERE username = 'ayesha'  OR  7=7  AND  1=1--  ',1,m:OR 7=7 AND 1=1
+DELETE FROM employees WHERE id = 65,0,b:delete_where:employees
+"SELECT MAX(user_id), MIN(created_at), AVG(status) FROM orders",0,b:select_agg:orders
+"SELECT MAX(total), MIN(created_at), AVG(id) FROM orders",0,b:select_agg:orders
+"UPDATE rooms SET available = 'x' WHERE id = 2420) And SUBSTRING((SELECT password fROM users LiMIt 1),1,1)='a'-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM customers WHERE city LIKE '%ayesha%',0,b:select_like:customers
+"DELETE FROM students WHERE roll_no = 'obrien' And BENCHMARK(5000000,MD5(1)) anD 'x'='x'",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM users WHERE role = 'fatima' OR SLEEP(5)#',1,m:OR SLEEP(5)
+DELETE FROM rooms WHERE room_no = 'usman') OR SLEEP(5)-- ',1,m:OR SLEEP(5)
+"SELECT * FROM customers WHERE id IN (4258, 3384, 3052)",0,b:select_in:customers
+SELECT * FROM invoices WHERE id = 931 anD EXISTS(SELECT * fROm users) LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM users WHERE email = 'ahmed' ORDER BY 10#',1,m:ORDER BY 10
+"SELECT city, id FROM customers WHERE phone = 'bilal' OR SLEEP(5)-- ' AND active = 1",1,m:OR SLEEP(5)
+"SELECT CHAR(79) AS letter, name FROM employees LIMIT 10",0,b:hn_char_fn:employees
+"SELECT * FROM products WHERE name = 'sara' UNION ALL SELECT 1,2,3#'",1,"m:UNION ALL SELECT 1,2,3"
+UPDATE orders SET user_id = 559 WHERE id = 4081,0,b:update:orders
+"UPDATE users SET username = 'x' WHERE id = 2934 UNiON selEcT table_name,NULL From information_schema.tables",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT * FROM users WHERE id = 319 OR username = 'khan',0,b:select_where_or:users
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 23 DAY)",0,b:select_date:customers
+SELECT id FROM employees,0,b:select_cols:employees
+"SELECT * FROM rooms WHERE floor = 'hina' anD SUBSTRING((SELECT password FROM users lImIt 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT * FROM employees WHERE id = 4898/**/UNION/**/SELECT/**/column_name,NULL/**/FROM/**/information_schema.columns/**/WHERE/**/table_name='users'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"UPDATE products SET name = 'x' WHERE id = 4946 AND BENCHMARK(5000000,MD5(1))-- ",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT * FROM invoices WHERE customer_id = 'ahmed' UNION ALL SELECT 1,2,3#'",1,"m:UNION ALL SELECT 1,2,3"
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (1808, 4794, 1)",0,b:insert:invoices
+"SELECT role, active FROM users WHERE username = 'ali'  unIoN  SelEcT  column_name,NULL  FROM  information_schema.columns  WHeRe  table_name='users'  AND  'x'='x' AND active = 1",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+DELETE FROM rooms WHERE id < 803,0,b:delete_range:rooms
+SELECT room_no FROM rooms,0,b:select_cols:rooms
+SELECT * FROM orders WHERE id = 2984%20OR%207=7%20AND%201=1--%20,1,m:OR 7=7 AND 1=1
+SELECT active FROM users,0,b:select_cols:users
+"SELECT available, COUNT(*) AS n FROM rooms GROUP BY available HAVING COUNT(*) > 19",0,b:select_group:rooms
+SELECT * FROM users WHERE id = 460 ORDER BY 10--  LIMIT 10,1,m:ORDER BY 10
+SELECT * FROM students WHERE id = 3997 OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+"SELECT * FROM invoices WHERE id = 3988 AND BENCHMARK(5000000,MD5(1))",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM employees WHERE id = 697 AND token = 0x43CB,0,b:hn_hex_literal:employees
+"SELECT * FROM students WHERE department LIKE '%smith' uNioN ALL SeLeCt 1,2,3-- %'",1,"m:UNION ALL SELECT 1,2,3"
+SELECT total FROM orders UNION SELECT total FROM orders_archive,0,b:hn_union_legit:orders
+"SELECT active, username, email FROM users WHERE username = $1",0,b:select_placeholder:users
+"SELECT name, department FROM employees ORDER BY name ASC LIMIT 72",0,b:select_order_limit:employees
+SELECT status FROM orders UNION SELECT status FROM orders_archive,0,b:hn_union_legit:orders
+"SELECT stock, category_id FROM products WHERE id = 1767)/**/;/**/EXEC/**/xp_cmdshell('dir')--/**/ ORDER BY id",1,m:; EXEC xp_cmdshell('dir')
+/* report */ SELECT * FROM users WHERE id = 3233,0,b:hn_block_comment:users
+"SELECT * FROM invoices WHERE due_date LIKE '%khan'  uNioN  SELECT  column_name,NULL  FRom  information_schema.columns  WHERE  table_name='users'--  %'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT department FROM employees ORDER BY id ASC LIMIT 22,0,b:select_order_limit:employees
+"SELECT paid, COUNT(*) AS n FROM invoices GROUP BY paid HAVING COUNT(*) > 2",0,b:select_group:invoices
+"UPDATE invoices SET customer_id = 823, amount = 8243.36 WHERE id = 2883",0,b:update_multi:invoices
+"SELECT * FROM orders WHERE id = 4884)/**/AND/**/BENCHMARK(5000000,MD5(1))--/**/",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT id, role FROM users WHERE created_at = 'obrien' OR 'a'='a'-- ' AND active = 1",1,m:OR 'a'='a'
+SELECT * FROM employees WHERE id = 2957 AND token = 0xE947,0,b:hn_hex_literal:employees
+SELECT * FROM students WHERE cgpa = 'bilal' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+"SELECT price, COUNT(*) AS n FROM products GROUP BY price HAVING COUNT(*) > 20",0,b:select_group:products
+"SELECT * FROM students WHERE id = 5000 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a' LIMIT 10",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT email, role FROM users WHERE id = 4560 OR SLEEP(5)--  ORDER BY id",1,m:OR SLEEP(5)
+DELETE FROM rooms WHERE available = 'obrien'%20;%20TRUNCATE%20TABLE%20logs--%20',1,m:; TRUNCATE TABLE logs
+SELECT * FROM employees WHERE id = 965 OR 7=7 AND 1=1-- ,1,m:OR 7=7 AND 1=1
+"SELECT * FROM employees WHERE hired_on = 'ayesha') AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT * FROM invoices WHERE id = 3922/**/UNION/**/SELECT/**/NULL,NULL LIMIT 10",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT * FROM users WHERE id = 785 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT cgpa, name FROM students WHERE department = 'maria' OR 7=7 AND 1=1 AND 'x'='x' AND active = 1",1,m:OR 7=7 AND 1=1
+"UPDATE rooms SET room_no = 'x' WHERE available = 'sara') AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- '",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT price, stock FROM products WHERE id = 4817) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--  ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+DELETE FROM rooms WHERE id < 640,0,b:delete_range:rooms
+SELECT * FROM employees WHERE salary = 3828.78 OR hired_on = '2026-03-01',0,b:select_where_or:employees
+DELETE FROM customers WHERE last_name = 'zara' ; EXEC xp_cmdshell('dir')-- ',1,m:; EXEC xp_cmdshell('dir')
+"SELECT id, roll_no, name, department FROM students ORDER BY cgpa ASC LIMIT 94",0,b:select_order_limit:students
+"DELETE FROM users WHERE role = 'hina'/**/UNION/**/SElECT/**/column_name,NULL/**/FroM/**/information_schema.columns/**/WHERE/**/table_name='users'#'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT city, id, last_name FROM customers",0,b:select_cols:customers
+SELECT name FROM employees UNION SELECT name FROM employees_archive,0,b:hn_union_legit:employees
+"SELECT * FROM orders WHERE id = 4642) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--  LIMIT 10",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+UPDATE products SET price = 'x' WHERE stock = 'obrien'	AND	EXISTS(SELECT	*	FROM	users)--	',1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM employees WHERE id BETWEEN 2768 AND 7483,0,b:select_between:employees
+"SELECT department, roll_no FROM students WHERE id = 53 -- lookup",0,b:hn_line_comment:students
+"SELECT status, created_at FROM orders WHERE status = 'usman') ORDER BY 10-- ' AND active = 1",1,m:ORDER BY 10
+"UPDATE rooms SET capacity = 'x' WHERE id = 3425 UNION/**/SELECT/**/NULL,NULL-- ",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT * FROM invoices WHERE paid = 'smith' UNION ALL SELECT 1,2,3#'",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT floor, id FROM rooms WHERE floor = 'maria' ; TRUNCATE TABLE logs#' AND active = 1",1,m:; TRUNCATE TABLE logs
+"UPDATE products SET category_id = 'x' WHERE stock = 'usman%27 UNION SELECT table_name,NULL FROM information_schema.tables#'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"DELETE FROM invoices WHERE amount = 'ahmed') UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- '",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM employees WHERE salary = 'ahmed')%20ORDER%20BY%2010--%20',1,m:ORDER BY 10
+CREATE INDEX idx_students_department ON students (roll_no),0,b:hn_create_index:students
+SELECT * FROM invoices WHERE amount LIKE '%usman')  ;  TRUNCATE  TABLE  logs--  %',1,m:; TRUNCATE TABLE logs
+"SELECT * FROM employees WHERE name LIKE '%hina' UniON SELECT table_name,NULL froM information_schema.tables-- %'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT * FROM products WHERE category_id = 408 AND id <> 2230,0,b:select_where_and:products
+"SELECT * FROM customers WHERE id = 4240/**/UNION/**/SELECT/**/NULL,NULL LIMIT 10",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 5 DAY)",0,b:select_date:products
+"SELECT id, COUNT(*) AS n FROM employees GROUP BY id HAVING COUNT(*) > 12",0,b:select_group:employees
+"DELETE FROM products WHERE stock = 'hina' UNION SELECT table_name,NULL FROM information_schema.tables-- '",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT username FROM users,0,b:select_cols:users
+SELECT * FROM products WHERE id = 3470/**/AND/**/EXISTS(SELECT/**/*/**/FROM/**/users)--/**/,1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM invoices WHERE id = 1163 AND id <> 752,0,b:select_where_and:invoices
+"SELECT role, active FROM users WHERE role = 'ayesha' ; EXEC xp_cmdshell('dir')-- ' AND active = 1",1,m:; EXEC xp_cmdshell('dir')
+"SELECT MAX(stock), MIN(category_id), AVG(price) FROM products",0,b:select_agg:products
+"SELECT created_at, user_id FROM orders WHERE id = 1219) AND EXISTS(SELECT * FROM users)--  ORDER BY id",1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM employees WHERE name BETWEEN 4604 AND 7924,0,b:select_between:employees
+"DELETE FROM users WHERE created_at = 'fatima'  UNION/**/SELECT/**/NULL,NULL#'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM rooms WHERE available = 0 OR available = 1,0,b:select_where_or:rooms
+"SELECT cgpa, department FROM students WHERE id = 1126) ; TRUNCATE TABLE logs--  ORDER BY id",1,m:; TRUNCATE TABLE logs
+"DELETE FROM orders WHERE total = 'ahmed'%20UNION/**/SELECT/**/NULL,NULL%20AND%20'x'='x'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT city FROM customers UNION SELECT city FROM customers_archive,0,b:hn_union_legit:customers
+"SELECT MAX(hired_on), MIN(id), AVG(salary) FROM employees",0,b:select_agg:employees
+SELECT floor FROM rooms,0,b:select_cols:rooms
+SELECT * FROM orders WHERE id = 4702 OR 'a'='a' LIMIT 10,1,m:OR 'a'='a'
+DELETE FROM products WHERE stock = 'ali' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+"SELECT MAX(id), MIN(id), AVG(created_at) FROM orders",0,b:select_agg:orders
+SELECT * FROM products WHERE price LIKE '%david%',0,b:select_like:products
+"SELECT * FROM employees WHERE id = 657) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- ",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT MAX(price), MIN(category_id), AVG(id) FROM products",0,b:select_agg:products
+SELECT * FROM employees WHERE id = 1133 AND token = 0xDD59,0,b:hn_hex_literal:employees
+SELECT * FROM employees,0,b:select_all:employees
+"SELECT * FROM invoices WHERE id = 2089/**/UNION/**/ALL/**/SELECT/**/1,2,3 LIMIT 10",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT name, roll_no, id, department FROM students WHERE id = 102 -- by id",0,b:hn_line_comment:students
+CREATE INDEX idx_rooms_capacity ON rooms (capacity),0,b:hn_create_index:rooms
+SELECT * FROM employees WHERE salary LIKE '%smith' OR SLEEP(5)#%',1,m:OR SLEEP(5)
+"SELECT CONCAT(department, ' ', id) AS label FROM students WHERE id = 4547",0,b:select_concat:students
+SELECT * FROM employees WHERE id = 4049 AND token = 0x7C80,0,b:hn_hex_literal:employees
+ALTER TABLE customers ADD COLUMN notes VARCHAR(255),0,b:hn_alter:customers
+"DELETE FROM products WHERE price = 'usman'%20UNION%20SELECT%20column_name,NULL%20FROM%20information_schema.columns%20WHERE%20table_name='users'%20AND%20'x'='x'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM rooms WHERE id = 4685 ; TRUNCATE TABLE logs,1,m:; TRUNCATE TABLE logs
+SELECT * FROM employees WHERE salary LIKE '%ayesha' ; EXEC xp_cmdshell('dir') and 'x'='x%',1,m:; EXEC xp_cmdshell('dir')
+"SELECT * FROM students WHERE id = 2621 UNION ALL SELECT 1,2,3--  LIMIT 10",1,"m:UNION ALL SELECT 1,2,3"
+CREATE INDEX idx_rooms_id ON rooms (id),0,b:hn_create_index:rooms
+"SELECT email, username FROM users WHERE id = 4625 AND BENCHMARK(5000000,MD5(1))--  ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM products WHERE price = 2894.89 AND stock <> 3528,0,b:select_where_and:products
+UPDATE customers SET first_name = 'x' WHERE id = 3117) Or 'a'='a'-- ,1,m:OR 'a'='a'
+SELECT * FROM users WHERE 1=1 AND id = 4357,0,b:hn_where_1_1:users
+"SELECT * FROM invoices WHERE id IN (1416, 2900, 1759)",0,b:select_in:invoices
+"UPDATE orders SET created_at = 'x' WHERE id = 3860) AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+UPDATE students SET name = 'x' WHERE cgpa = 'obrien' ; EXEC xp_cmdshell('dir')#',1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM users WHERE 1=1 AND role = 'david',0,b:hn_where_1_1:users
+"SELECT status, total, created_at, user_id FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 17",0,b:hn_where_1_1_b:orders
+"SELECT created_at, total FROM orders WHERE created_at = 'ahmed'/**/;/**/EXEC/**/xp_cmdshell('dir')/**/AND/**/'x'='x' AND active = 1",1,m:; EXEC xp_cmdshell('dir')
+DELETE FROM employees WHERE salary = 'zara') ORDER BY 10-- ',1,m:ORDER BY 10
+"SELECT * FROM orders WHERE id = 3331 UNION SELECT table_name,NULL FROM information_schema.tables",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT * FROM employees WHERE department = 'ali' OR salary = 3564,0,b:select_where_or:employees
+"SELECT due_date, id FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 30",0,b:hn_where_1_1_b:invoices
+"UPDATE orders SET total = 'x' WHERE id = 1464 UNION SELECT column_name,NULL FROM information_schema.columns WhEre table_name='users'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM orders WHERE id = 1111) ORDER BY 10-- ,1,m:ORDER BY 10
+SELECT * FROM employees WHERE id = 3535) OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+SELECT * FROM students WHERE id = 1721 # admin report,0,b:hn_hash_comment:students
+SELECT * FROM rooms WHERE capacity = 4397 OR id = 881,0,b:select_where_or:rooms
+"SELECT * FROM employees WHERE id = 1626 AND SUBSTRING((SELECT password FROM users LiMIt 1),1,1)=%27a%27-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM invoices WHERE customer_id = 1330 AND customer_id <> 1357,0,b:select_where_and:invoices
+SELECT * FROM users WHERE role = 'zara' AND EXISTS(SELECT * FROM users)#',1,m:AND EXISTS(SELECT * FROM users)
+"SELECT * FROM students WHERE id = 626 and BENCHMARK(5000000,MD5(1))-- ",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 2 DAY)",0,b:select_date:products
+SELECT * FROM invoices WHERE amount = 'smith' oR SLEEP(5)-- ',1,m:OR SLEEP(5)
+"SELECT * FROM invoices WHERE id IN (2216, 1474, 214)",0,b:select_in:invoices
+"SELECT * FROM invoices WHERE due_date = 'john' and BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT * FROM customers WHERE id IN (4454, 160, 3134)",0,b:select_in:customers
+/* report */ SELECT * FROM employees WHERE id = 4327,0,b:hn_block_comment:employees
+"SELECT price, category_id FROM products WHERE name = 'zara')	unIOn	SELECT	table_name,NULL	FROM	information_schema.tables--	' AND active = 1",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT * FROM products WHERE id = 974) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--  LIMIT 10",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+UPDATE students SET roll_no = 'x' WHERE id = 4707 OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+"SELECT id, COUNT(*) AS n FROM invoices GROUP BY id HAVING COUNT(*) > 19",0,b:select_group:invoices
+"SELECT last_name, first_name FROM customers WHERE id = 2090 ORDER BY 10--  ORDER BY id",1,m:ORDER BY 10
+SELECT * FROM customers WHERE id = 4725 ; TRUNCATE taBlE logs-- ,1,m:; TRUNCATE TABLE logs
+"SELECT id, COUNT(*) AS n FROM invoices GROUP BY id HAVING COUNT(*) > 9",0,b:select_group:invoices
+UPDATE employees SET department = 'x' WHERE id = 2812 ; TRUNCATE TABLE logs-- ,1,m:; TRUNCATE TABLE logs
+UPDATE users SET username = 'x' WHERE id = 4294) OR 'a'='a'-- ,1,m:OR 'a'='a'
+SELECT * FROM employees WHERE 1=1 AND department = 'zara',0,b:hn_where_1_1:employees
+"UPDATE orders SET user_id = 'x' WHERE user_id = 'john'%20UNION%20SELECT%20column_name,NULL%20FROM%20information_schema.columns%20WHERE%20table_name='users'%20AND%20'x'='x'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM products WHERE id = 4931 # check,0,b:hn_hash_comment:products
+SELECT first_name FROM customers,0,b:select_cols:customers
+SELECT * FROM customers WHERE first_name LIKE '%bilal' or 'a'='a' aND 'x'='x%',1,m:OR 'a'='a'
+"UPDATE products SET stock = 'x' WHERE category_id = 'sara' UNION ALL SELECT 1,2,3 AND 'x'='x'",1,"m:UNION ALL SELECT 1,2,3"
+"UPDATE rooms SET available = 'x' WHERE id = 4095) UNION SELECT table_name,NULL FROM information_schema.tables-- ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT department, id, salary, name FROM employees ORDER BY salary ASC LIMIT 52",0,b:select_order_limit:employees
+UPDATE invoices SET customer_id = 'x' WHERE id = 361 ; TRUNCATE TabLE logs,1,m:; TRUNCATE TABLE logs
+"SELECT id, created_at, active, email FROM users WHERE role = :value",0,b:select_placeholder:users
+ALTER TABLE employees ADD COLUMN notes VARCHAR(255),0,b:hn_alter:employees
+UPDATE orders SET created_at = 'x' WHERE status = 'maria' OR SLEEP(5) anD 'x'='x',1,m:OR SLEEP(5)
+SELECT user_id FROM orders UNION SELECT user_id FROM orders_archive,0,b:hn_union_legit:orders
+ALTER TABLE customers ADD COLUMN notes VARCHAR(20),0,b:hn_alter:customers
+"SELECT * FROM invoices WHERE paid LIKE '%obrien'  UNION  ALL  SELECT  1,2,3  AND  'x'='x%'",1,"m:UNION ALL SELECT 1,2,3"
+"UPDATE users SET username = 'ali', email = 'usman' WHERE id = 956",0,b:update_multi:users
+SELECT * FROM employees WHERE hired_on = '2026-09-10' OR id = 2615,0,b:select_where_or:employees
+"UPDATE users SET active = 'x' WHERE created_at = 'bilal') UNION/**/SELECT/**/NULL,NULL-- '",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT id, hired_on, name, salary FROM employees",0,b:select_cols:employees
+SELECT * FROM users WHERE id = 3650 OR 7=7 AND 1=1-- ,1,m:OR 7=7 AND 1=1
+"UPDATE users SET username = 'ali', email = 'john' WHERE id = 4134",0,b:update_multi:users
+SELECT * FROM customers WHERE city LIKE '%zara'	OR	7=7	AND	1=1#%',1,m:OR 7=7 AND 1=1
+SELECT * FROM rooms WHERE id = 2159 OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+SELECT created_at FROM users WHERE active = :value,0,b:select_placeholder:users
+SELECT * FROM users WHERE 1=1 AND role = 'usman',0,b:hn_where_1_1:users
+"UPDATE users SET created_at = 'x' WHERE id = 4621/**/UNION/**/SELECT/**/NULL,NULL--/**/",1,"m:UNION/**/SELECT/**/NULL,NULL"
+/* report */ SELECT * FROM customers WHERE id = 720,0,b:hn_block_comment:customers
+"SELECT customer_id, COUNT(*) AS n FROM invoices GROUP BY customer_id HAVING COUNT(*) > 15",0,b:select_group:invoices
+DELETE FROM products WHERE stock = 'usman'	;	TRUNCATE	taBLE	logs#',1,m:; TRUNCATE TABLE logs
+UPDATE products SET name = 'x' WHERE category_id = 'bilal' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+SELECT due_date FROM invoices UNION SELECT due_date FROM invoices_archive,0,b:hn_union_legit:invoices
+DELETE FROM orders WHERE created_at = 'khan%27 OR %27a%27=%27a%27 anD %27x%27=%27x',1,m:OR 'a'='a'
+"SELECT CHAR(69) AS letter, hired_on FROM employees LIMIT 10",0,b:hn_char_fn:employees
+SELECT * FROM products WHERE id = 3965/**/OR/**/'a'='a'--/**/ LIMIT 10,1,m:OR 'a'='a'
+ALTER TABLE employees ADD COLUMN phone2 VARCHAR(20),0,b:hn_alter:employees
+"SELECT * FROM users WHERE id = 926 UNION SELECT column_name,NULL FROm information_schema.columns WHERE table_name='users'-- ",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT * FROM products WHERE id = 1785) UNION SELECT table_name,NULL FROM information_schema.tables-- ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT MAX(name), MIN(category_id), AVG(id) FROM products",0,b:select_agg:products
+"SELECT capacity, room_no FROM rooms WHERE id = 4413 UNION/**/SELECT/**/NULL,NULL--  ORDER BY id",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"DELETE FROM products WHERE price = 'fatima' UNION SELECT table_name,NULL FROM information_schema.tables#'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+CREATE INDEX idx_rooms_room_no ON rooms (room_no),0,b:hn_create_index:rooms
+"SELECT * FROM customers WHERE first_name = 'ahmed'%20UNION%20ALL%20SELECT%201,2,3%20AND%20'x'='x'",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM students WHERE department LIKE '%ahmed') OR 7=7 aND 1=1-- %',1,m:OR 7=7 AND 1=1
+DELETE FROM rooms WHERE id < 18,0,b:delete_range:rooms
+"SELECT * FROM employees WHERE hired_on LIKE '%ali' UNioN SELeCt column_name,NULL FROM information_schema.columns WHERE table_name='users'-- %'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT MAX(category_id), MIN(id), AVG(price) FROM products",0,b:select_agg:products
+"UPDATE employees SET name = 'bilal', salary = 2019 WHERE id = 1188",0,b:update_multi:employees
+"SELECT created_at, user_id, total, status FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 41",0,b:hn_where_1_1_b:orders
+SELECT * FROM orders WHERE id = 677	ORDER	BY	10--	,1,m:ORDER BY 10
+/* dashboard */ SELECT * FROM employees WHERE id = 4112,0,b:hn_block_comment:employees
+"SELECT id, COUNT(*) AS n FROM employees GROUP BY id HAVING COUNT(*) > 2",0,b:select_group:employees
+SELECT * FROM employees WHERE id = 24 AND token = 0x440A,0,b:hn_hex_literal:employees
+SELECT user_id FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 29,0,b:hn_where_1_1_b:orders
+"UPDATE orders SET total = 'x' WHERE id = 4801  UNION  SELECT  table_name,NULL  FROM  information_schema.tables--  ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT cgpa, roll_no FROM students WHERE id = 3665 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'--  ORDER BY id",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT hired_on FROM employees UNION SELECT hired_on FROM employees_archive,0,b:hn_union_legit:employees
+UPDATE employees SET department = 'x' WHERE id = 4498 OR SLEEP(5)-- ,1,m:OR SLEEP(5)
+"SELECT due_date, COUNT(*) AS n FROM invoices GROUP BY due_date HAVING COUNT(*) > 20",0,b:select_group:invoices
+SELECT * FROM customers WHERE city LIKE '%david%',0,b:select_like:customers
+SELECT * FROM customers WHERE first_name = 'bilal'%20;%20EXEC%20xp_cmdshell('dir')#',1,m:; EXEC xp_cmdshell('dir')
+UPDATE orders SET total = 4119 WHERE id = 1366,0,b:update:orders
+"SELECT customer_id, paid FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 34",0,b:hn_where_1_1_b:invoices
+SELECT * FROM rooms WHERE room_no = 'john' OR 'a'='a' AND 'x'='x',1,m:OR 'a'='a'
+"SELECT * FROM orders WHERE total = 'zara')%20AND%20SUBSTRING((SELECT%20password%20FROM%20users%20LIMIT%201),1,1)='a'--%20'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM users WHERE created_at = '2026-06-30' OR email = 'o''brien',0,b:select_where_or:users
+"SELECT roll_no, name FROM students WHERE roll_no = 'david' UNION SELECT table_name,NULL FROM information_schema.tables AND 'x'='x' AND active = 1",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT roll_no, COUNT(*) AS n FROM students GROUP BY roll_no HAVING COUNT(*) > 5",0,b:select_group:students
+"SELECT id, stock FROM products WHERE id = 2425) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--  ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+UPDATE users SET created_at = 'x' WHERE email = 'sara'	OR	SLEEP(5)	AND	'x'='x',1,m:OR SLEEP(5)
+/* report */ SELECT * FROM customers WHERE id = 616,0,b:hn_block_comment:customers
+"SELECT id, name, roll_no FROM students ORDER BY department DESC LIMIT 11",0,b:select_order_limit:students
+"SELECT created_at, id, role FROM users WHERE role = %s",0,b:select_placeholder:users
+"SELECT id, department FROM employees WHERE salary = 'khan' OR SLEEP(5) AND 'x'='x' AND active = 1",1,m:OR SLEEP(5)
+UPDATE students SET name = 'x' WHERE department = 'obrien' OR SLEEP(5) AND 'x'='x',1,m:OR SLEEP(5)
+"UPDATE rooms SET room_no = 'x' WHERE available = 'khan' AND BENCHMARK(5000000,MD5(1)) AND 'x'='x'",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT department, COUNT(*) AS n FROM students GROUP BY department HAVING COUNT(*) > 19",0,b:select_group:students
+SELECT * FROM employees WHERE id IN (SELECT id FROM employees WHERE id > 3378),0,b:select_subquery:employees
+SELECT * FROM employees WHERE salary = 'fatima'%20;%20EXEC%20xp_cmdshell('dir')#',1,m:; EXEC xp_cmdshell('dir')
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 76 DAY)",0,b:select_date:products
+SELECT * FROM users WHERE active = 0 OR active = 0,0,b:select_where_or:users
+"SELECT CONCAT(department, ' ', roll_no) AS label FROM students WHERE id = 1245",0,b:select_concat:students
+SELECT * FROM invoices WHERE id = 404 OR SLEEP(5)--  LIMIT 10,1,m:OR SLEEP(5)
+"UPDATE users SET username = 'bilal', email = 'smith' WHERE id = 4676",0,b:update_multi:users
+"SELECT * FROM orders WHERE created_at = 'ayesha' AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM employees WHERE name = 'john' OR id = 2357,0,b:select_where_or:employees
+SELECT * FROM employees WHERE hired_on = '2025-12-31' OR id = 3165,0,b:select_where_or:employees
+SELECT role FROM users UNION SELECT role FROM users_archive,0,b:hn_union_legit:users
+CREATE INDEX idx_students_name ON students (cgpa),0,b:hn_create_index:students
+SELECT * FROM invoices WHERE due_date = '2026-09-10' AND amount <> 4960,0,b:select_where_and:invoices
+SELECT * FROM products WHERE name = 'usman' AND category_id <> 1886,0,b:select_where_and:products
+"SELECT capacity, room_no, id FROM rooms",0,b:select_cols:rooms
+"SELECT id, name FROM products WHERE category_id = 'maria' OR 7=7 AND 1=1-- ' AND active = 1",1,m:OR 7=7 AND 1=1
+UPDATE products SET category_id = 'x' WHERE category_id = 'john' ORdEr By 10#',1,m:ORDER BY 10
+"UPDATE invoices SET customer_id = 'x' WHERE id = 3074 UNION SELECT column_name,NULL FROM information_schema.columns WheRe table_name='users'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT MAX(id), MIN(department), AVG(id) FROM employees",0,b:select_agg:employees
+SELECT * FROM employees WHERE 1=1 AND id = 1096,0,b:hn_where_1_1:employees
+ALTER TABLE employees ADD COLUMN nickname VARCHAR(255),0,b:hn_alter:employees
+"SELECT MAX(price), MIN(price), AVG(id) FROM products",0,b:select_agg:products
+SELECT * FROM invoices WHERE due_date = '2025-12-31' AND customer_id <> 3164,0,b:select_where_and:invoices
+SELECT * FROM invoices WHERE id = 2507 AND EXISTS(SELECT * FROM users)-- ,1,m:AND EXISTS(SELECT * FROM users)
+"SELECT phone, first_name FROM customers WHERE id = 1932 ; TRUNCATE TABLE logs--  ORDER BY id",1,m:; TRUNCATE TABLE logs
+ALTER TABLE employees ADD COLUMN phone2 VARCHAR(50),0,b:hn_alter:employees
+"SELECT * FROM rooms WHERE id = 1541/**/UNION/**/ALL/**/sELEct/**/1,2,3--/**/",1,"m:UNION ALL SELECT 1,2,3"
+DELETE FROM invoices WHERE amount = 'fatima' ; EXEC xp_cmdshell('dir') AND 'x'='x',1,m:; EXEC xp_cmdshell('dir')
+"SELECT * FROM customers WHERE last_name = 'ayesha'/**/UNION/**/ALL/**/SELECT/**/1,2,3/**/AND/**/'x'='x'",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT * FROM products WHERE id IN (2293, 763, 360)",0,b:select_in:products
+"UPDATE employees SET name = 'smith', salary = 580 WHERE id = 759",0,b:update_multi:employees
+SELECT amount FROM invoices UNION SELECT amount FROM invoices_archive,0,b:hn_union_legit:invoices
+SELECT * FROM users WHERE role LIKE '%hina') OR 7=7 AND 1=1-- %',1,m:OR 7=7 AND 1=1
+UPDATE students SET name = 'x' WHERE name = 'maria'/**/OR/**/7=7/**/AND/**/1=1#',1,m:OR 7=7 AND 1=1
+"UPDATE invoices SET customer_id = 2091, amount = 1780.75 WHERE id = 169",0,b:update_multi:invoices
+"UPDATE employees SET hired_on = 'x' WHERE id = 4750)  AND  BENCHMARK(5000000,MD5(1))--  ",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT available, floor FROM rooms WHERE id = 4708 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--  ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM invoices WHERE id = 4963/**/;/**/TRUNCATE/**/TABLE/**/logs LIMIT 10,1,m:; TRUNCATE TABLE logs
+"SELECT * FROM products WHERE id IN (290, 4530, 3436)",0,b:select_in:products
+SELECT * FROM invoices WHERE id = 4009 AND due_date <> '2026-06-30',0,b:select_where_and:invoices
+SELECT * FROM products WHERE id = 3849 AND token = 0xCE59,0,b:hn_hex_literal:products
+UPDATE employees SET salary = 'x' WHERE name = 'ayesha'  Or  'a'='a'#',1,m:OR 'a'='a'
+SELECT * FROM students WHERE id = 2435 ; EXEC xp_cmdshell('dir')-- ,1,m:; EXEC xp_cmdshell('dir')
+"SELECT * FROM products WHERE id IN (284, 2014, 2418)",0,b:select_in:products
+SELECT * FROM employees WHERE id IN (SELECT id FROM customers WHERE id > 1909),0,b:select_subquery:employees
+UPDATE students SET roll_no = 'x' WHERE department = 'maria' OR 'a'='a' AND 'x'='x',1,m:OR 'a'='a'
+"UPDATE students SET roll_no = 'x' WHERE name = 'maria' UNION SELECT table_name,NULL FROM information_schema.tables AND 'x'='x'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT city, last_name, first_name FROM customers",0,b:select_cols:customers
+"SELECT phone, id FROM customers WHERE id = 607)/**/OR/**/SLEEP(5)--/**/ ORDER BY id",1,m:OR SLEEP(5)
+"SELECT * FROM products WHERE created_at >= DATE_SUB(NOW(), INTERVAL 90 DAY)",0,b:select_date:products
+"UPDATE customers SET city = 'x' WHERE phone = 'fatima' AND BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT active, created_at, id FROM users WHERE email = %s",0,b:select_placeholder:users
+SELECT * FROM orders WHERE id = 376) ; TRUNCATE TAbLE logs-- ,1,m:; TRUNCATE TABLE logs
+"UPDATE users SET created_at = 'x' WHERE id = 2770 anD BENCHMARK(5000000,MD5(1))",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM employees WHERE hired_on = 'ayesha' AND EXISTS(SELECT * FROM users) AND 'x'='x',1,m:AND EXISTS(SELECT * FROM users)
+SELECT name FROM employees ORDER BY hired_on ASC LIMIT 96,0,b:select_order_limit:employees
+"SELECT CHAR(81) AS letter, hired_on FROM employees LIMIT 10",0,b:hn_char_fn:employees
+"SELECT room_no, floor, id, capacity FROM rooms",0,b:select_cols:rooms
+"SELECT MAX(created_at), MIN(total), AVG(status) FROM orders",0,b:select_agg:orders
+/* cron job */ SELECT * FROM employees WHERE id = 1199,0,b:hn_block_comment:employees
+"UPDATE employees SET name = 'x' WHERE id = 3264 AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'-- ",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT id, name, hired_on FROM employees ORDER BY name DESC LIMIT 62",0,b:select_order_limit:employees
+SELECT * FROM employees WHERE id = 3924 AND token = 0x378E,0,b:hn_hex_literal:employees
+SELECT * FROM employees WHERE id = 4913 AND token = 0x3E6D,0,b:hn_hex_literal:employees
+"SELECT customer_id, paid, id, due_date FROM invoices WHERE 1 = 1 ORDER BY id DESC LIMIT 17",0,b:hn_where_1_1_b:invoices
+"SELECT available, id, capacity FROM rooms",0,b:select_cols:rooms
+"UPDATE customers SET first_name = 'x' WHERE first_name = 'ayesha' UNION ALL SELECT 1,2,3 AND 'x'='x'",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT first_name, last_name, id FROM customers",0,b:select_cols:customers
+SELECT * FROM students WHERE id = 4591 # fix later,0,b:hn_hash_comment:students
+"SELECT CONCAT(name, ' ', id) AS label FROM students WHERE id = 2327",0,b:select_concat:students
+SELECT id FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 28,0,b:hn_where_1_1_b:orders
+DELETE FROM rooms WHERE id < 2768,0,b:delete_range:rooms
+"DELETE FROM invoices WHERE amount = 'zara' UNION/**/SELECT/**/NULL,NULL AND 'x'='x'",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT * FROM products WHERE id IN (3231, 614, 4849)",0,b:select_in:products
+SELECT * FROM rooms WHERE id = 491 OR room_no = 'ayesha',0,b:select_where_or:rooms
+"SELECT phone, first_name FROM customers WHERE city = 'usman' ; TRUNCATE TABLE logs AND 'x'='x' AND active = 1",1,m:; TRUNCATE TABLE logs
+"SELECT id, salary FROM employees WHERE id = 1163) OR 'a'='a'--  ORDER BY id",1,m:OR 'a'='a'
+UPDATE customers SET city = 'x' WHERE id = 1296 And EXISTS(SELECT * FRom users),1,m:AND EXISTS(SELECT * FROM users)
+UPDATE invoices SET paid = 'x' WHERE customer_id = 'ali'%20OR%20'a'='a'%20AnD%20'x'='x',1,m:OR 'a'='a'
+"SELECT hired_on, department, salary, id FROM employees ORDER BY name ASC LIMIT 72",0,b:select_order_limit:employees
+SELECT * FROM products WHERE id = 3925 # check,0,b:hn_hash_comment:products
+"SELECT MAX(name), MIN(name), AVG(department) FROM employees",0,b:select_agg:employees
+"UPDATE invoices SET customer_id = 2421, amount = 5685.22 WHERE id = 370",0,b:update_multi:invoices
+"SELECT id, roll_no FROM students WHERE cgpa = 'sara' ; TRUNCATE TABLE logs AND 'x'='x' AND active = 1",1,m:; TRUNCATE TABLE logs
+SELECT * FROM employees WHERE id IN (SELECT id FROM orders WHERE id > 1197),0,b:select_subquery:employees
+SELECT * FROM orders WHERE id = 563) AND EXISTS(SELECT * FROM users)--  LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+"SELECT * FROM students WHERE id = 3356)/**/UNION/**/ALL/**/SELECT/**/1,2,3--/**/",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM customers WHERE last_name = 'obrien' ORDER BY 10 AND 'x'='x',1,m:ORDER BY 10
+"SELECT salary, name FROM employees WHERE name = 'ahmed') ORDER BY 10-- ' AND active = 1",1,m:ORDER BY 10
+"SELECT role, active FROM users WHERE active = 'sara' AnD BENCHMARK(5000000,MD5(1))#' AND active = 1",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT name, department FROM students WHERE id = 1675 -- by id",0,b:hn_line_comment:students
+"SELECT id, hired_on FROM employees WHERE id = 602) AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'--  ORDER BY id",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT id, department FROM employees WHERE id = 1672) UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name=%27users%27--  ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT salary, department FROM employees",0,b:select_cols:employees
+"SELECT last_name, first_name, city FROM customers",0,b:select_cols:customers
+"SELECT * FROM orders WHERE id = 4115/**/UNION/**/ALL/**/SELECT/**/1,2,3--/**/ LIMIT 10",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM employees WHERE hired_on = '2026-01-15' OR id = 666,0,b:select_where_or:employees
+"SELECT CHAR(89) AS letter, name FROM employees LIMIT 10",0,b:hn_char_fn:employees
+"SELECT cgpa, department, roll_no FROM students WHERE id = 1650 -- report query",0,b:hn_line_comment:students
+"SELECT due_date, COUNT(*) AS n FROM invoices GROUP BY due_date HAVING COUNT(*) > 18",0,b:select_group:invoices
+SELECT * FROM products WHERE stock = 'ahmed'	OR	7=7	AND	1=1--	',1,m:OR 7=7 AND 1=1
+SELECT * FROM students WHERE id = 903 AND EXISTS(SELECT * fRom users) LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+"SELECT department, salary FROM employees ORDER BY name ASC LIMIT 99",0,b:select_order_limit:employees
+"SELECT id, role FROM users",0,b:select_cols:users
+SELECT * FROM students WHERE id = 1723	OR	SLEEP(5)--	,1,m:OR SLEEP(5)
+SELECT * FROM invoices WHERE paid LIKE '%khan' OR 7=7 AND 1=1-- %',1,m:OR 7=7 AND 1=1
+SELECT * FROM products WHERE name LIKE '%sara%',0,b:select_like:products
+"SELECT * FROM users WHERE id = 1262 UNION SELECT table_name,NULL FROM information_schema.tables",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT id, first_name FROM customers WHERE id = 2828) AND BENCHMARK(5000000,MD5(1))--  ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM employees WHERE id = 878 OR 7=7 AnD 1=1--  LIMIT 10,1,m:OR 7=7 AND 1=1
+"SELECT city, id FROM customers WHERE id = 1780/**/OR/**/'a'='a'--/**/ ORDER BY id",1,m:OR 'a'='a'
+SELECT * FROM students WHERE id = 1095 # fix later,0,b:hn_hash_comment:students
+ALTER TABLE employees ADD COLUMN nickname VARCHAR(20),0,b:hn_alter:employees
+/* audit */ SELECT * FROM employees WHERE id = 2973,0,b:hn_block_comment:employees
+SELECT * FROM employees WHERE department = 'bilal' OR department = 'maria',0,b:select_where_or:employees
+"SELECT * FROM products WHERE id IN (4806, 1161, 909)",0,b:select_in:products
+"SELECT id, COUNT(*) AS n FROM rooms GROUP BY id HAVING COUNT(*) > 4",0,b:select_group:rooms
+"SELECT MAX(price), MIN(stock), AVG(category_id) FROM products",0,b:select_agg:products
+"SELECT id, COUNT(*) AS n FROM invoices GROUP BY id HAVING COUNT(*) > 13",0,b:select_group:invoices
+"SELECT cgpa, department FROM students WHERE id = 798 -- lookup",0,b:hn_line_comment:students
+/* cron job */ SELECT * FROM employees WHERE id = 4519,0,b:hn_block_comment:employees
+SELECT * FROM invoices WHERE customer_id LIKE '%david%27 ; TRUNCATE TABLE logs AND %27x%27=%27x%',1,m:; TRUNCATE TABLE logs
+SELECT * FROM customers WHERE last_name LIKE '%david%',0,b:select_like:customers
+/* report */ SELECT * FROM customers WHERE id = 2456,0,b:hn_block_comment:customers
+CREATE INDEX idx_rooms_room_no ON rooms (id),0,b:hn_create_index:rooms
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (1465, 2884.15, 0)",0,b:insert:invoices
+"SELECT hired_on, salary, id, department FROM employees",0,b:select_cols:employees
+"SELECT amount, customer_id FROM invoices WHERE id = 4057 OR SLEEP(5)--  ORDER BY id",1,m:OR SLEEP(5)
+SELECT * FROM students WHERE id = 4025 # fix later,0,b:hn_hash_comment:students
+SELECT * FROM users WHERE active = 'ali' ORDER BY 10-- ',1,m:ORDER BY 10
+UPDATE rooms SET floor = 'x' WHERE available = 'ali' AND EXISTS(SELECT * FROM users) AND 'x'='x',1,m:AND EXISTS(SELECT * FROM users)
+"SELECT MAX(stock), MIN(name), AVG(name) FROM products",0,b:select_agg:products
+CREATE INDEX idx_students_id ON students (roll_no),0,b:hn_create_index:students
+DELETE FROM orders WHERE total = 'smith' ; TRUNCATE TABLE logs#',1,m:; TRUNCATE TABLE logs
+SELECT * FROM orders,0,b:select_all:orders
+/* report */ SELECT * FROM customers WHERE id = 4933,0,b:hn_block_comment:customers
+SELECT created_at FROM users WHERE role = :value,0,b:select_placeholder:users
+"DELETE FROM users WHERE active = 'zara' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a' AND 'x'='x'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT created_at, active, id, role FROM users",0,b:select_cols:users
+"SELECT id, due_date FROM invoices WHERE due_date = 'sara' ; EXEC xp_cmdshell('dir') AND 'x'='x' AND active = 1",1,m:; EXEC xp_cmdshell('dir')
+"SELECT hired_on, name, id FROM employees ORDER BY hired_on DESC LIMIT 59",0,b:select_order_limit:employees
+UPDATE orders SET created_at = 'x' WHERE id = 2066) ORDER BY 10-- ,1,m:ORDER BY 10
+SELECT * FROM users WHERE 1=1 AND email = 'hina',0,b:hn_where_1_1:users
+DELETE FROM employees WHERE id = 2137,0,b:delete_where:employees
+"DELETE FROM orders WHERE created_at = 'hina') UNION SELECT table_name,NULL FROM information_schema.tables-- '",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT name, COUNT(*) AS n FROM students GROUP BY name HAVING COUNT(*) > 6",0,b:select_group:students
+SELECT * FROM invoices WHERE due_date = '2026-01-15' AND paid <> true,0,b:select_where_and:invoices
+"SELECT user_id, total FROM orders WHERE id = 3717 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'--  ORDER BY id",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+UPDATE orders SET created_at = '2026-09-10' WHERE id = 4419,0,b:update:orders
+SELECT * FROM customers WHERE id LIKE '%zara%',0,b:select_like:customers
+"SELECT username, role FROM users WHERE email = 'fatima') UNION SELECT table_name,NULL FROM information_schema.tables-- ' AND active = 1",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT customer_id FROM invoices UNION SELECT customer_id FROM invoices_archive,0,b:hn_union_legit:invoices
+"SELECT floor, room_no FROM rooms WHERE id = 1228 AND BENCHMARK(5000000,MD5(1))--  ORDER BY id",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT MAX(department), MIN(department), AVG(hired_on) FROM employees",0,b:select_agg:employees
+SELECT * FROM products WHERE stock LIKE '%maria%',0,b:select_like:products
+"SELECT available, COUNT(*) AS n FROM rooms GROUP BY available HAVING COUNT(*) > 6",0,b:select_group:rooms
+"SELECT department, COUNT(*) AS n FROM employees GROUP BY department HAVING COUNT(*) > 4",0,b:select_group:employees
+"SELECT role, email FROM users",0,b:select_cols:users
+"SELECT department, COUNT(*) AS n FROM students GROUP BY department HAVING COUNT(*) > 11",0,b:select_group:students
+"INSERT INTO invoices (customer_id, amount, paid) VALUES (1212, 3504, false)",0,b:insert:invoices
+CREATE INDEX idx_students_name ON students (roll_no),0,b:hn_create_index:students
+"SELECT * FROM customers WHERE created_at >= DATE_SUB(NOW(), INTERVAL 1 DAY)",0,b:select_date:customers
+"SELECT * FROM orders WHERE id = 2181/**/UNION/**/sELeCT/**/table_name,NULL/**/FROM/**/information_schema.tables LIMIT 10",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT department, name, hired_on FROM employees ORDER BY department DESC LIMIT 55",0,b:select_order_limit:employees
+DELETE FROM users WHERE role = 'zara'%20ORDER%20BY%2010--%20',1,m:ORDER BY 10
+"UPDATE invoices SET due_date = 'x' WHERE id = 4894)	AND	BENCHMARK(5000000,MD5(1))--	",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"UPDATE students SET cgpa = 'x' WHERE id = 73 UNION SELECT table_name,NULL FROM information_schema.tables-- ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+UPDATE employees SET hired_on = 'x' WHERE id = 777	;	EXEC	xp_cmdshell('dir')--	,1,m:; EXEC xp_cmdshell('dir')
+"DELETE FROM users WHERE role = 'maria') aNd BENCHMARK(5000000,MD5(1))-- '",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT total, created_at FROM orders WHERE id = 2931 ; TRUNCATE TABLE logs ORDER BY id",1,m:; TRUNCATE TABLE logs
+"SELECT capacity, available FROM rooms WHERE available = 'zara'	AND	BENCHMARK(5000000,MD5(1))--	' AND active = 1",1,"m:AND BENCHMARK(5000000,MD5(1))"
+CREATE INDEX idx_rooms_id ON rooms (capacity),0,b:hn_create_index:rooms
+"SELECT * FROM invoices WHERE due_date LIKE '%fatima'/**/UNION/**/SELECT/**/table_name,NULL/**/FROM/**/information_schema.tables--/**/%'",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"UPDATE users SET username = 'smith', email = 'ali' WHERE id = 1506",0,b:update_multi:users
+"SELECT name, id FROM students WHERE id = 2739  AND  EXISTS(SELECT  *  FROM  users) ORDER BY id",1,m:AND EXISTS(SELECT * FROM users)
+"UPDATE users SET active = 'x' WHERE email = 'smith'/**/UNION/**/SELECT/**/column_name,NULL/**/FROM/**/information_schema.columns/**/WHERE/**/table_name='users'#'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT user_id, total, created_at FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 20",0,b:hn_where_1_1_b:orders
+SELECT * FROM students WHERE id = 3494 oRDer BY 10--  LIMIT 10,1,m:ORDER BY 10
+SELECT * FROM users WHERE email = 'john')%20OR%20SLEEP(5)--%20',1,m:OR SLEEP(5)
+SELECT * FROM students WHERE id = 1708 ORDER BY 10--  LIMIT 10,1,m:ORDER BY 10
+SELECT * FROM products WHERE id = 492 AND token = 0xF193,0,b:hn_hex_literal:products
+UPDATE customers SET city = 'x' WHERE phone = 'obrien' AND EXISTS(SELECT * frOm users) AND 'x'='x',1,m:AND EXISTS(SELECT * FROM users)
+"UPDATE customers SET city = 'x' WHERE city = 'smith' UNION ALL SELECT 1,2,3 AND 'x'='x'",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM students WHERE name LIKE '%maria') ; TRUNCATE TABLE logs-- %',1,m:; TRUNCATE TABLE logs
+"SELECT name, price FROM products WHERE id = 1454 UNION ALL SELECT 1,2,3 ORDER BY id",1,"m:UNION ALL SELECT 1,2,3"
+"UPDATE employees SET name = 'x' WHERE department = 'ahmed'/**/AND/**/SUBSTRING((SELECT/**/password/**/FROM/**/users/**/LIMIT/**/1),1,1)='a'/**/AND/**/'x'='x'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT id, COUNT(*) AS n FROM invoices GROUP BY id HAVING COUNT(*) > 5",0,b:select_group:invoices
+"SELECT * FROM products WHERE id IN (1829, 4226, 377)",0,b:select_in:products
+"SELECT status, created_at, id FROM orders WHERE 1 = 1 ORDER BY id DESC LIMIT 21",0,b:hn_where_1_1_b:orders
+/* cron job */ SELECT * FROM customers WHERE id = 81,0,b:hn_block_comment:customers
+"SELECT * FROM students WHERE id = 256 UNION/**/SELECT/**/NULL,NULL-- ",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"SELECT active, username FROM users WHERE id = 3842 AND EXISTS(SELECT * FROM users) ORDER BY id",1,m:AND EXISTS(SELECT * FROM users)
+"SELECT MAX(hired_on), MIN(salary), AVG(department) FROM employees",0,b:select_agg:employees
+"SELECT id, customer_id FROM invoices WHERE id = 3525 ; EXEC xp_cmdshell('dir')--  ORDER BY id",1,m:; EXEC xp_cmdshell('dir')
+DELETE FROM students WHERE cgpa = 'khan' ; EXEC xp_cmdshell('dir')#',1,m:; EXEC xp_cmdshell('dir')
+"SELECT amount, due_date FROM invoices WHERE customer_id = 'ayesha'	AND	EXISTS(SELECT	*	FROM	users)#' AND active = 1",1,m:AND EXISTS(SELECT * FROM users)
+"SELECT department, hired_on, salary, id FROM employees",0,b:select_cols:employees
+"SELECT * FROM orders WHERE id = 4613/**/AND/**/SUBSTRING((SELECT/**/password/**/FROM/**/users/**/LIMIT/**/1),1,1)='a'--/**/ LIMIT 10",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+"SELECT id, COUNT(*) AS n FROM employees GROUP BY id HAVING COUNT(*) > 8",0,b:select_group:employees
+SELECT * FROM products WHERE id = 97 # admin report,0,b:hn_hash_comment:products
+SELECT * FROM orders WHERE id = 1527 AND EXISTS(SELECT * FROM users) LIMIT 10,1,m:AND EXISTS(SELECT * FROM users)
+"SELECT user_id, created_at FROM orders WHERE id = 999 UNION ALL SELECT 1,2,3 ORDER BY id",1,"m:UNION ALL SELECT 1,2,3"
+SELECT * FROM users WHERE 1=1 AND role = 'john',0,b:hn_where_1_1:users
+SELECT * FROM rooms WHERE id = 1641 ORDER BY 10,1,m:ORDER BY 10
+"SELECT * FROM products WHERE id = 4944 AND BENCHMARK(5000000,MD5(1)) LIMIT 10",1,"m:AND BENCHMARK(5000000,MD5(1))"
+SELECT * FROM users WHERE email = 'maria') ORDER BY 10-- ',1,m:ORDER BY 10
+SELECT * FROM rooms WHERE id = 4831) ; EXEC xp_cmdshell('dir')-- ,1,m:; EXEC xp_cmdshell('dir')
+"SELECT id, name FROM students WHERE id = 775) OR 'a'='a'--  ORDER BY id",1,m:OR 'a'='a'
+UPDATE products SET price = 'x' WHERE name = 'john' OR 'a'='a'#',1,m:OR 'a'='a'
+SELECT * FROM products WHERE id = 2415 AND token = 0x85DC,0,b:hn_hex_literal:products
+SELECT * FROM students WHERE id = 321 # admin report,0,b:hn_hash_comment:students
+"UPDATE products SET name = 'x' WHERE id = 2582  UNION  ALL  SELECT  1,2,3--  ",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT created_at, user_id FROM orders WHERE user_id = 'khan') ORDER BY 10-- ' AND active = 1",1,m:ORDER BY 10
+"UPDATE users SET username = 'david', email = 'khan' WHERE id = 448",0,b:update_multi:users
+SELECT * FROM products WHERE id = 2624 AND token = 0x35D4,0,b:hn_hex_literal:products
+SELECT * FROM students WHERE name LIKE '%ayesha' OR 7=7 AND 1=1 AND 'x'='x%',1,m:OR 7=7 AND 1=1
+SELECT * FROM students WHERE id = 1896 # check,0,b:hn_hash_comment:students
+"SELECT * FROM orders WHERE status LIKE '%ali' AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'#%'",1,"m:AND SUBSTRING((SELECT password FROM users LIMIT 1),1,1)='a'"
+SELECT * FROM products WHERE category_id LIKE '%david%',0,b:select_like:products
+"SELECT price, name FROM products WHERE stock = 'fatima'%20AND%20BENCHMARK(5000000,MD5(1))#' AND active = 1",1,"m:AND BENCHMARK(5000000,MD5(1))"
+"SELECT status, total FROM orders WHERE user_id = 'usman') UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- ' AND active = 1",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+DELETE FROM employees WHERE id = 1129,0,b:delete_where:employees
+SELECT * FROM customers WHERE id = 1323) OR 'a'='a'--  LIMIT 10,1,m:OR 'a'='a'
+"SELECT id, active FROM users",0,b:select_cols:users
+DELETE FROM employees WHERE id = 3673,0,b:delete_where:employees
+SELECT * FROM invoices WHERE paid LIKE '%fatima'/**/OR/**/7=7/**/AND/**/1=1/**/AND/**/'x'='x%',1,m:OR 7=7 AND 1=1
+"SELECT * FROM students WHERE id = 1213 UNION/**/SELECT/**/NULL,NULL",1,"m:UNION/**/SELECT/**/NULL,NULL"
+SELECT * FROM rooms WHERE available = false OR available = 1,0,b:select_where_or:rooms
+SELECT * FROM products WHERE id = 4913 AND token = 0x1374,0,b:hn_hex_literal:products
+"UPDATE products SET name = 'x' WHERE category_id = 'bilal' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- '",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+SELECT * FROM students WHERE roll_no LIKE '%usman'  ORDER  BY  10#%',1,m:ORDER BY 10
+"SELECT * FROM products WHERE stock = 'obrien' UNION SELECT table_name,NULL FROM information_schema.tables-- '",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+SELECT first_name FROM customers UNION SELECT first_name FROM customers_archive,0,b:hn_union_legit:customers
+SELECT * FROM invoices WHERE id = 3540  ;  TRUNCATE  TABLE  logs--  ,1,m:; TRUNCATE TABLE logs
+SELECT * FROM products WHERE price = 3116.75 AND id <> 1275,0,b:select_where_and:products
+UPDATE rooms SET room_no = 'x' WHERE id = 2134) AND EXISTS(SELECT * FROM users)-- ,1,m:AND EXISTS(SELECT * FROM users)
+"DELETE FROM users WHERE role = 'ali%27 UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name=%27users%27-- '",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT * FROM products WHERE id = 4166/**/UNION/**/SELECT/**/NULL,NULL LIMIT 10",1,"m:UNION/**/SELECT/**/NULL,NULL"
+"UPDATE products SET category_id = 'x' WHERE category_id = 'khan' UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users' AND 'x'='x'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
+"SELECT MAX(id), MIN(hired_on), AVG(salary) FROM employees",0,b:select_agg:employees
+UPDATE users SET email = 'x' WHERE created_at = 'khan') ; EXEC xp_cmdshell('dir')-- ',1,m:; EXEC xp_cmdshell('dir')
+SELECT * FROM users WHERE id = 989 AND EXISTS(SELECT * FROM users),1,m:AND EXISTS(SELECT * FROM users)
+SELECT * FROM students WHERE roll_no LIKE '%ali' OR 'a'='a'#%',1,m:OR 'a'='a'
+SELECT * FROM students WHERE id = 4617)/**/;/**/EXEC/**/xp_cmdshell('dir')--/**/,1,m:; EXEC xp_cmdshell('dir')
+"UPDATE customers SET phone = 'x' WHERE city = 'usman')/**/unION/**/ALL/**/SELECT/**/1,2,3--/**/'",1,"m:UNION ALL SELECT 1,2,3"
+"SELECT * FROM students WHERE id = 1268 UNION SELECT table_name,NULL FROM information_schema.tables-- ",1,"m:UNION SELECT table_name,NULL FROM information_schema.tables"
+"SELECT * FROM customers WHERE first_name LIKE '%zara') UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'-- %'",1,"m:UNION SELECT column_name,NULL FROM information_schema.columns WHERE table_name='users'"
